@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>The Braided River — A Graphic Novel</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #111;
+    --text: #aaa;
+    --text-bright: #ddd;
+    --accent: #e8856c;
+    --ui-bg: rgba(0,0,0,0.65);
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* ── reader container ── */
+  #reader {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── page image ── */
+  #page-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+
+  #page-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: opacity 0.2s ease;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  #page-img.loading { opacity: 0.3; }
+
+  /* ── loading spinner ── */
+  #spinner {
+    position: absolute;
+    display: none;
+    width: 32px;
+    height: 32px;
+    border: 3px solid rgba(255,255,255,0.15);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  #spinner.visible { display: block; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── bottom bar ── */
+  #bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    background: var(--ui-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  #bar button {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.15);
+    color: var(--text-bright);
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #bar button:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.25); }
+  #bar button:disabled { opacity: 0.25; cursor: default; }
+
+  #info {
+    text-align: center;
+    flex: 1;
+    min-width: 0;
+  }
+  #page-title {
+    font-size: 13px;
+    color: var(--text-bright);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #page-counter {
+    font-size: 11px;
+    color: var(--text);
+    margin-top: 2px;
+  }
+
+  /* ── progress bar ── */
+  #progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;
+  }
+
+  /* ── table of contents overlay ── */
+  #toc-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    z-index: 100;
+    display: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0;
+  }
+  #toc-overlay.visible { display: block; }
+
+  #toc-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+  }
+
+  #toc-inner h2 {
+    font-size: 22px;
+    color: var(--text-bright);
+    margin-bottom: 24px;
+    font-weight: 700;
+  }
+
+  .toc-part {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .toc-part:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+
+  .toc-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s;
+    text-decoration: none;
+    color: inherit;
+  }
+  .toc-item:hover { background: rgba(255,255,255,0.06); }
+  .toc-item.current { background: rgba(232,133,108,0.12); }
+
+  .toc-thumb {
+    width: 72px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    background: #222;
+  }
+
+  .toc-label {
+    font-size: 14px;
+    color: var(--text-bright);
+  }
+  .toc-label small {
+    display: block;
+    font-size: 11px;
+    color: var(--text);
+    margin-top: 2px;
+  }
+
+  .toc-done { opacity: 1; }
+  .toc-upcoming { opacity: 0.35; }
+  .toc-upcoming .toc-thumb { display: none; }
+
+  #toc-close {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 101;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: var(--text-bright);
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  #toc-overlay.visible ~ #toc-close { display: flex; }
+
+  /* ── tap zones (invisible) ── */
+  .tap-zone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    z-index: 2;
+  }
+  .tap-left { left: 0; cursor: w-resize; }
+  .tap-right { right: 0; cursor: e-resize; }
+</style>
+</head>
+<body>
+
+<div id="reader">
+  <div id="page-container">
+    <img id="page-img" src="" alt="Page">
+    <div id="spinner"></div>
+    <div class="tap-zone tap-left" id="tap-left"></div>
+    <div class="tap-zone tap-right" id="tap-right"></div>
+  </div>
+  <div id="bar">
+    <button id="btn-prev" aria-label="Previous page">&#8592;</button>
+    <button id="btn-toc" aria-label="Table of contents" style="font-size:12px;">&#9776;</button>
+    <div id="info">
+      <div id="page-title"></div>
+      <div id="page-counter"></div>
+    </div>
+    <button id="btn-next" aria-label="Next page">&#8594;</button>
+  </div>
+  <div id="progress"></div>
+</div>
+
+<div id="toc-overlay"></div>
+<button id="toc-close" aria-label="Close table of contents">&times;</button>
+
+<script>
+const PAGES = [
+  { file: "output/page-00-prologue.png", title: "Prologue", subtitle: "I couldn't follow the podcast", part: "PROLOGUE" },
+  { file: "output/page-01-the-molecule.png", title: "Ch 1 — The Molecule", subtitle: "What's Written Inside You", part: "PART I — THE LANGUAGE OF LIFE" },
+  { file: "output/page-02-central-dogma.png", title: "Ch 1 — The Central Dogma", subtitle: "DNA → RNA → Protein", part: null },
+  { file: "output/page-03-inheritance.png", title: "Ch 1 — Inheritance", subtitle: "How You Got Your Genes", part: null },
+  { file: "output/page-04-mutations.png", title: "Ch 1 — Mutations", subtitle: "When the Code Changes", part: null },
+  { file: "output/page-05-the-copy-machine.png", title: "Ch 2 — The Copy Machine", subtitle: "DNA Replication", part: "CHAPTER 2 — HOW LIFE COPIES ITSELF" },
+  { file: "output/page-06-two-ways-to-divide.png", title: "Ch 2 — Two Ways to Divide", subtitle: "Mitosis vs Meiosis", part: null },
+  { file: "output/page-07-recombination-key-to-history.png", title: "Ch 2 — Recombination", subtitle: "The Key to History", part: null },
+  { file: "output/page-08-the-rebels.png", title: "Ch 2 — The Rebels", subtitle: "The Rebels That Don't Shuffle", part: null },
+  { file: "output/page-09-the-big-record.png", title: "Ch 3 — The Big Record", subtitle: "Nuclear DNA", part: "CHAPTER 3 — THREE HISTORIES IN YOUR BODY" },
+  { file: "output/page-10-the-mother-line.png", title: "Ch 3 — The Mother Line", subtitle: "Mitochondrial DNA", part: null },
+  { file: "output/page-11-the-father-line.png", title: "Ch 3 — The Father Line", subtitle: "Y Chromosome", part: null },
+  { file: "output/page-12-when-the-stories-disagree.png", title: "Ch 3 — When the Stories Disagree", subtitle: "The Central Mystery", part: null },
+  { file: "output/page-13-the-clean-room.png", title: "Ch 4 — The Clean Room", subtitle: "Reading the Dead", part: "CHAPTER 4 — READING THE DEAD" },
+  { file: "output/page-14-sequencing-and-comparing.png", title: "Ch 4 — Sequencing", subtitle: "Sequencing and Comparing", part: null },
+  { file: "output/page-15-the-finger-bone.png", title: "Ch 4 — The Finger Bone", subtitle: "The Finger Bone That Changed Everything", part: null },
+  { file: "output/page-16-the-cast-assembles.png", title: "Ch 4 — The Cast Assembles", subtitle: "The Human Family Portrait", part: null },
+  { file: "output/page-77-the-return.png", title: "Epilogue — The Return", subtitle: "Back to the Headphones", part: "EPILOGUE" },
+  { file: "output/page-78-helix-goodbye.png", title: "Epilogue — Helix's Goodbye", subtitle: "You Were Never Just One Thing", part: null },
+];
+
+const UPCOMING_CHAPTERS = [
+  { part: "PART II — THE DEEP PAST", chapters: [
+    "Chapter 5: The Family We Forgot",
+    "Chapter 6: The Braided River",
+    "Chapter 7: Africa's Own Story",
+  ]},
+  { part: "PART III — THE WORLD REMADE", chapters: [
+    "Chapter 8: The Three Peoples of Europe",
+    "Chapter 9: The Horsemen and the Plague",
+    "Chapter 10: The Collision That Formed India",
+  ]},
+  { part: "PART IV — THE WIDER WORLD", chapters: [
+    "Chapter 11: The First Americans",
+    "Chapter 12: The Genomic Origins of East Asia",
+    "Chapter 13: The Pacific Voyagers",
+  ]},
+  { part: "PART V — WHAT IT ALL MEANS", chapters: [
+    "Chapter 14: Power and Sex",
+    "Chapter 15: The Race Question",
+    "Chapter 16: The Voice in the DNA",
+    "Chapter 17: The Lost Civilizations Question",
+    "Chapter 18: The Grand Challenge",
+    "Chapter 19: What This Means for AI",
+  ]},
+];
+
+let current = 0;
+const img = document.getElementById('page-img');
+const spinner = document.getElementById('spinner');
+const title = document.getElementById('page-title');
+const counter = document.getElementById('page-counter');
+const progress = document.getElementById('progress');
+const btnPrev = document.getElementById('btn-prev');
+const btnNext = document.getElementById('btn-next');
+const btnToc = document.getElementById('btn-toc');
+const tocOverlay = document.getElementById('toc-overlay');
+const tocClose = document.getElementById('toc-close');
+
+function show(idx) {
+  if (idx < 0 || idx >= PAGES.length) return;
+  current = idx;
+  const page = PAGES[current];
+
+  img.classList.add('loading');
+  spinner.classList.add('visible');
+
+  const loader = new Image();
+  loader.onload = () => {
+    img.src = loader.src;
+    img.classList.remove('loading');
+    spinner.classList.remove('visible');
+  };
+  loader.src = page.file;
+
+  title.textContent = page.title;
+  counter.textContent = `${current + 1} / ${PAGES.length}`;
+  progress.style.width = `${((current + 1) / PAGES.length) * 100}%`;
+
+  btnPrev.disabled = current === 0;
+  btnNext.disabled = current === PAGES.length - 1;
+
+  // preload neighbors
+  if (current + 1 < PAGES.length) new Image().src = PAGES[current + 1].file;
+  if (current - 1 >= 0) new Image().src = PAGES[current - 1].file;
+
+  localStorage.setItem('reich-gn-page', current);
+}
+
+function prev() { show(current - 1); }
+function next() { show(current + 1); }
+
+// controls
+btnPrev.addEventListener('click', prev);
+btnNext.addEventListener('click', next);
+document.getElementById('tap-left').addEventListener('click', prev);
+document.getElementById('tap-right').addEventListener('click', next);
+
+document.addEventListener('keydown', (e) => {
+  if (tocOverlay.classList.contains('visible')) {
+    if (e.key === 'Escape') closeToc();
+    return;
+  }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { prev(); e.preventDefault(); }
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { next(); e.preventDefault(); }
+});
+
+// swipe
+let touchStartX = 0;
+let touchStartY = 0;
+const pageContainer = document.getElementById('page-container');
+
+pageContainer.addEventListener('touchstart', (e) => {
+  touchStartX = e.changedTouches[0].screenX;
+  touchStartY = e.changedTouches[0].screenY;
+}, { passive: true });
+
+pageContainer.addEventListener('touchend', (e) => {
+  const dx = e.changedTouches[0].screenX - touchStartX;
+  const dy = e.changedTouches[0].screenY - touchStartY;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    if (dx < 0) next(); else prev();
+  }
+}, { passive: true });
+
+// table of contents
+function buildToc() {
+  let html = '<div id="toc-inner"><h2>Table of Contents</h2>';
+  let lastPart = null;
+
+  PAGES.forEach((p, i) => {
+    if (p.part && p.part !== lastPart) {
+      html += `<div class="toc-part">${p.part}</div>`;
+      lastPart = p.part;
+    }
+    html += `<a class="toc-item toc-done ${i === current ? 'current' : ''}" data-idx="${i}">
+      <img class="toc-thumb" src="${p.file}" alt="" loading="lazy">
+      <div class="toc-label">${p.title}<small>${p.subtitle}</small></div>
+    </a>`;
+  });
+
+  // upcoming chapters
+  UPCOMING_CHAPTERS.forEach(section => {
+    html += `<div class="toc-part">${section.part}</div>`;
+    section.chapters.forEach(ch => {
+      html += `<div class="toc-item toc-upcoming">
+        <div class="toc-thumb"></div>
+        <div class="toc-label">${ch}<small>Coming soon</small></div>
+      </div>`;
+    });
+  });
+
+  html += '</div>';
+  tocOverlay.innerHTML = html;
+
+  tocOverlay.querySelectorAll('.toc-item.toc-done').forEach(el => {
+    el.addEventListener('click', () => {
+      show(parseInt(el.dataset.idx));
+      closeToc();
+    });
+  });
+}
+
+function openToc() {
+  buildToc();
+  tocOverlay.classList.add('visible');
+}
+
+function closeToc() {
+  tocOverlay.classList.remove('visible');
+}
+
+btnToc.addEventListener('click', openToc);
+tocClose.addEventListener('click', closeToc);
+tocOverlay.addEventListener('click', (e) => {
+  if (e.target === tocOverlay) closeToc();
+});
+
+// restore last position
+const saved = localStorage.getItem('reich-gn-page');
+show(saved ? parseInt(saved) : 0);
+</script>
+</body>
+</html>
