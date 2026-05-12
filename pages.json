@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "file": "output/page-00-prologue.png",
+      "title": "Prologue",
+      "subtitle": "I couldn't follow the podcast",
+      "part": "PROLOGUE"
+    },
+    {
+      "file": "output/page-01-the-molecule.png",
+      "title": "Ch 1 \u2014 The Molecule",
+      "subtitle": "What's Written Inside You",
+      "part": "PART I \u2014 THE LANGUAGE OF LIFE"
+    },
+    {
+      "file": "output/page-02-central-dogma.png",
+      "title": "Ch 1 \u2014 The Central Dogma",
+      "subtitle": "DNA \u2192 RNA \u2192 Protein"
+    },
+    {
+      "file": "output/page-03-inheritance.png",
+      "title": "Ch 1 \u2014 Inheritance",
+      "subtitle": "How You Got Your Genes"
+    },
+    {
+      "file": "output/page-04-mutations.png",
+      "title": "Ch 1 \u2014 Mutations",
+      "subtitle": "When the Code Changes"
+    },
+    {
+      "file": "output/page-05-the-copy-machine.png",
+      "title": "Ch 2 \u2014 The Copy Machine",
+      "subtitle": "DNA Replication",
+      "part": "CHAPTER 2 \u2014 HOW LIFE COPIES ITSELF"
+    },
+    {
+      "file": "output/page-06-two-ways-to-divide.png",
+      "title": "Ch 2 \u2014 Two Ways to Divide",
+      "subtitle": "Mitosis vs Meiosis"
+    },
+    {
+      "file": "output/page-07-recombination-key-to-history.png",
+      "title": "Ch 2 \u2014 Recombination",
+      "subtitle": "The Key to History"
+    },
+    {
+      "file": "output/page-08-the-rebels.png",
+      "title": "Ch 2 \u2014 The Rebels",
+      "subtitle": "The Rebels That Don't Shuffle"
+    },
+    {
+      "file": "output/page-09-the-big-record.png",
+      "title": "Ch 3 \u2014 The Big Record",
+      "subtitle": "Nuclear DNA",
+      "part": "CHAPTER 3 \u2014 THREE HISTORIES IN YOUR BODY"
+    },
+    {
+      "file": "output/page-10-the-mother-line.png",
+      "title": "Ch 3 \u2014 The Mother Line",
+      "subtitle": "Mitochondrial DNA"
+    },
+    {
+      "file": "output/page-11-the-father-line.png",
+      "title": "Ch 3 \u2014 The Father Line",
+      "subtitle": "Y Chromosome"
+    },
+    {
+      "file": "output/page-12-when-the-stories-disagree.png",
+      "title": "Ch 3 \u2014 When the Stories Disagree",
+      "subtitle": "The Central Mystery"
+    },
+    {
+      "file": "output/page-13-the-clean-room.png",
+      "title": "Ch 4 \u2014 The Clean Room",
+      "subtitle": "Reading the Dead",
+      "part": "CHAPTER 4 \u2014 READING THE DEAD"
+    },
+    {
+      "file": "output/page-14-sequencing-and-comparing.png",
+      "title": "Ch 4 \u2014 Sequencing",
+      "subtitle": "Sequencing and Comparing"
+    },
+    {
+      "file": "output/page-15-the-finger-bone.png",
+      "title": "Ch 4 \u2014 The Finger Bone",
+      "subtitle": "The Finger Bone That Changed Everything"
+    },
+    {
+      "file": "output/page-16-the-cast-assembles.png",
+      "title": "Ch 4 \u2014 The Cast Assembles",
+      "subtitle": "The Human Family Portrait"
+    },
+    {
+      "file": "output/page-77-the-return.png",
+      "title": "Epilogue \u2014 The Return",
+      "subtitle": "Back to the Headphones",
+      "part": "EPILOGUE"
+    },
+    {
+      "file": "output/page-78-helix-goodbye.png",
+      "title": "Epilogue \u2014 Helix's Goodbye",
+      "subtitle": "You Were Never Just One Thing"
+    }
+  ],
+  "upcoming": [
+    {
+      "part": "PART II \u2014 THE DEEP PAST",
+      "chapters": [
+        "Chapter 5: The Family We Forgot",
+        "Chapter 6: The Braided River",
+        "Chapter 7: Africa's Own Story"
+      ]
+    },
+    {
+      "part": "PART III \u2014 THE WORLD REMADE",
+      "chapters": [
+        "Chapter 8: The Three Peoples of Europe",
+        "Chapter 9: The Horsemen and the Plague",
+        "Chapter 10: The Collision That Formed India"
+      ]
+    },
+    {
+      "part": "PART IV \u2014 THE WIDER WORLD",
+      "chapters": [
+        "Chapter 11: The First Americans",
+        "Chapter 12: The Genomic Origins of East Asia",
+        "Chapter 13: The Pacific Voyagers"
+      ]
+    },
+    {
+      "part": "PART V \u2014 WHAT IT ALL MEANS",
+      "chapters": [
+        "Chapter 14: Power and Sex",
+        "Chapter 15: The Race Question",
+        "Chapter 16: The Voice in the DNA",
+        "Chapter 17: The Lost Civilizations Question",
+        "Chapter 18: The Grand Challenge",
+        "Chapter 19: What This Means for AI"
+      ]
+    }
+  ]
+}

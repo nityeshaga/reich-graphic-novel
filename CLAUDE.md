@@ -77,6 +77,17 @@ pages/               # Page specs (markdown) — one file per page
 output/              # Generated page images
 ```
 
+## GitHub Pages Reader
+
+**Live at:** https://nityeshaga.github.io/reich-graphic-novel/
+**Repo:** https://github.com/nityeshaga/reich-graphic-novel
+
+The reader is a static `index.html` — swipe/arrow-key navigation, table of contents, progress bar, remembers position. Optimized for iPad.
+
+**After generating new pages:** The reader auto-discovers PNGs from `output/` at build time via a GitHub Actions workflow that generates a `pages.json` manifest. Just commit new images to `output/` and push — the reader updates automatically.
+
+**Deployment:** GitHub Pages via `.github/workflows/deploy.yml`. Pushes to `main` trigger a rebuild.
+
 ## Key Decisions
 
 - No page limit — this will be a full graphic novel, as long as it needs to be

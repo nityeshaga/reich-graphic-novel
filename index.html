@@ -266,65 +266,20 @@
 <button id="toc-close" aria-label="Close table of contents">&times;</button>
 
 <script>
-const PAGES = [
-  { file: "output/page-00-prologue.png", title: "Prologue", subtitle: "I couldn't follow the podcast", part: "PROLOGUE" },
-  { file: "output/page-01-the-molecule.png", title: "Ch 1 — The Molecule", subtitle: "What's Written Inside You", part: "PART I — THE LANGUAGE OF LIFE" },
-  { file: "output/page-02-central-dogma.png", title: "Ch 1 — The Central Dogma", subtitle: "DNA → RNA → Protein", part: null },
-  { file: "output/page-03-inheritance.png", title: "Ch 1 — Inheritance", subtitle: "How You Got Your Genes", part: null },
-  { file: "output/page-04-mutations.png", title: "Ch 1 — Mutations", subtitle: "When the Code Changes", part: null },
-  { file: "output/page-05-the-copy-machine.png", title: "Ch 2 — The Copy Machine", subtitle: "DNA Replication", part: "CHAPTER 2 — HOW LIFE COPIES ITSELF" },
-  { file: "output/page-06-two-ways-to-divide.png", title: "Ch 2 — Two Ways to Divide", subtitle: "Mitosis vs Meiosis", part: null },
-  { file: "output/page-07-recombination-key-to-history.png", title: "Ch 2 — Recombination", subtitle: "The Key to History", part: null },
-  { file: "output/page-08-the-rebels.png", title: "Ch 2 — The Rebels", subtitle: "The Rebels That Don't Shuffle", part: null },
-  { file: "output/page-09-the-big-record.png", title: "Ch 3 — The Big Record", subtitle: "Nuclear DNA", part: "CHAPTER 3 — THREE HISTORIES IN YOUR BODY" },
-  { file: "output/page-10-the-mother-line.png", title: "Ch 3 — The Mother Line", subtitle: "Mitochondrial DNA", part: null },
-  { file: "output/page-11-the-father-line.png", title: "Ch 3 — The Father Line", subtitle: "Y Chromosome", part: null },
-  { file: "output/page-12-when-the-stories-disagree.png", title: "Ch 3 — When the Stories Disagree", subtitle: "The Central Mystery", part: null },
-  { file: "output/page-13-the-clean-room.png", title: "Ch 4 — The Clean Room", subtitle: "Reading the Dead", part: "CHAPTER 4 — READING THE DEAD" },
-  { file: "output/page-14-sequencing-and-comparing.png", title: "Ch 4 — Sequencing", subtitle: "Sequencing and Comparing", part: null },
-  { file: "output/page-15-the-finger-bone.png", title: "Ch 4 — The Finger Bone", subtitle: "The Finger Bone That Changed Everything", part: null },
-  { file: "output/page-16-the-cast-assembles.png", title: "Ch 4 — The Cast Assembles", subtitle: "The Human Family Portrait", part: null },
-  { file: "output/page-77-the-return.png", title: "Epilogue — The Return", subtitle: "Back to the Headphones", part: "EPILOGUE" },
-  { file: "output/page-78-helix-goodbye.png", title: "Epilogue — Helix's Goodbye", subtitle: "You Were Never Just One Thing", part: null },
-];
-
-const UPCOMING_CHAPTERS = [
-  { part: "PART II — THE DEEP PAST", chapters: [
-    "Chapter 5: The Family We Forgot",
-    "Chapter 6: The Braided River",
-    "Chapter 7: Africa's Own Story",
-  ]},
-  { part: "PART III — THE WORLD REMADE", chapters: [
-    "Chapter 8: The Three Peoples of Europe",
-    "Chapter 9: The Horsemen and the Plague",
-    "Chapter 10: The Collision That Formed India",
-  ]},
-  { part: "PART IV — THE WIDER WORLD", chapters: [
-    "Chapter 11: The First Americans",
-    "Chapter 12: The Genomic Origins of East Asia",
-    "Chapter 13: The Pacific Voyagers",
-  ]},
-  { part: "PART V — WHAT IT ALL MEANS", chapters: [
-    "Chapter 14: Power and Sex",
-    "Chapter 15: The Race Question",
-    "Chapter 16: The Voice in the DNA",
-    "Chapter 17: The Lost Civilizations Question",
-    "Chapter 18: The Grand Challenge",
-    "Chapter 19: What This Means for AI",
-  ]},
-];
-
+let PAGES = [];
+let UPCOMING_CHAPTERS = [];
 let current = 0;
+
 const img = document.getElementById('page-img');
 const spinner = document.getElementById('spinner');
-const title = document.getElementById('page-title');
+const titleEl = document.getElementById('page-title');
 const counter = document.getElementById('page-counter');
 const progress = document.getElementById('progress');
 const btnPrev = document.getElementById('btn-prev');
 const btnNext = document.getElementById('btn-next');
 const btnToc = document.getElementById('btn-toc');
 const tocOverlay = document.getElementById('toc-overlay');
-const tocClose = document.getElementById('toc-close');
+const tocCloseBtn = document.getElementById('toc-close');
 
 function show(idx) {
   if (idx < 0 || idx >= PAGES.length) return;
@@ -342,14 +297,13 @@ function show(idx) {
   };
   loader.src = page.file;
 
-  title.textContent = page.title;
+  titleEl.textContent = page.title;
   counter.textContent = `${current + 1} / ${PAGES.length}`;
   progress.style.width = `${((current + 1) / PAGES.length) * 100}%`;
 
   btnPrev.disabled = current === 0;
   btnNext.disabled = current === PAGES.length - 1;
 
-  // preload neighbors
   if (current + 1 < PAGES.length) new Image().src = PAGES[current + 1].file;
   if (current - 1 >= 0) new Image().src = PAGES[current - 1].file;
 
@@ -359,7 +313,6 @@ function show(idx) {
 function prev() { show(current - 1); }
 function next() { show(current + 1); }
 
-// controls
 btnPrev.addEventListener('click', prev);
 btnNext.addEventListener('click', next);
 document.getElementById('tap-left').addEventListener('click', prev);
@@ -374,7 +327,6 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { next(); e.preventDefault(); }
 });
 
-// swipe
 let touchStartX = 0;
 let touchStartY = 0;
 const pageContainer = document.getElementById('page-container');
@@ -392,7 +344,6 @@ pageContainer.addEventListener('touchend', (e) => {
   }
 }, { passive: true });
 
-// table of contents
 function buildToc() {
   let html = '<div id="toc-inner"><h2>Table of Contents</h2>';
   let lastPart = null;
@@ -408,7 +359,6 @@ function buildToc() {
     </a>`;
   });
 
-  // upcoming chapters
   UPCOMING_CHAPTERS.forEach(section => {
     html += `<div class="toc-part">${section.part}</div>`;
     section.chapters.forEach(ch => {
@@ -430,24 +380,23 @@ function buildToc() {
   });
 }
 
-function openToc() {
-  buildToc();
-  tocOverlay.classList.add('visible');
-}
-
-function closeToc() {
-  tocOverlay.classList.remove('visible');
-}
+function openToc() { buildToc(); tocOverlay.classList.add('visible'); }
+function closeToc() { tocOverlay.classList.remove('visible'); }
 
 btnToc.addEventListener('click', openToc);
-tocClose.addEventListener('click', closeToc);
-tocOverlay.addEventListener('click', (e) => {
-  if (e.target === tocOverlay) closeToc();
-});
+tocCloseBtn.addEventListener('click', closeToc);
+tocOverlay.addEventListener('click', (e) => { if (e.target === tocOverlay) closeToc(); });
 
-// restore last position
-const saved = localStorage.getItem('reich-gn-page');
-show(saved ? parseInt(saved) : 0);
+// load manifest and start
+fetch('pages.json')
+  .then(r => r.json())
+  .then(data => {
+    PAGES = data.pages;
+    UPCOMING_CHAPTERS = data.upcoming || [];
+    const saved = localStorage.getItem('reich-gn-page');
+    const startIdx = saved ? Math.min(parseInt(saved), PAGES.length - 1) : 0;
+    show(startIdx);
+  });
 </script>
 </body>
 </html>
