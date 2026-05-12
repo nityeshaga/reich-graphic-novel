@@ -3,108 +3,88 @@
     {
       "file": "output/page-00-prologue.png",
       "title": "Prologue",
-      "subtitle": "I couldn't follow the podcast",
       "part": "PROLOGUE"
     },
     {
       "file": "output/page-01-the-molecule.png",
-      "title": "Ch 1 \u2014 The Molecule",
-      "subtitle": "What's Written Inside You",
+      "title": "The Molecule",
       "part": "PART I \u2014 THE LANGUAGE OF LIFE"
     },
     {
       "file": "output/page-02-central-dogma.png",
-      "title": "Ch 1 \u2014 The Central Dogma",
-      "subtitle": "DNA \u2192 RNA \u2192 Protein"
+      "title": "Central Dogma"
     },
     {
       "file": "output/page-03-inheritance.png",
-      "title": "Ch 1 \u2014 Inheritance",
-      "subtitle": "How You Got Your Genes"
+      "title": "Inheritance"
     },
     {
-      "file": "output/page-03b-beyond-mendel.png",
-      "title": "Ch 1 \u2014 Beyond the Pea Plants",
-      "subtitle": "Codominance, Polygenic Traits, Sex-Linked"
+      "file": "output/page-04-beyond-mendel.png",
+      "title": "Beyond Mendel"
     },
     {
-      "file": "output/page-04-mutations.png",
-      "title": "Ch 1 \u2014 Mutations",
-      "subtitle": "When the Code Changes"
+      "file": "output/page-05-mutations.png",
+      "title": "Mutations"
     },
     {
-      "file": "output/page-05-the-copy-machine.png",
-      "title": "Ch 2 \u2014 The Copy Machine",
-      "subtitle": "DNA Replication",
+      "file": "output/page-06-the-copy-machine.png",
+      "title": "The Copy Machine",
       "part": "CHAPTER 2 \u2014 HOW LIFE COPIES ITSELF"
     },
     {
-      "file": "output/page-06-two-ways-to-divide.png",
-      "title": "Ch 2 \u2014 Two Ways to Divide",
-      "subtitle": "Mitosis vs Meiosis"
+      "file": "output/page-07-two-ways-to-divide.png",
+      "title": "Two Ways To Divide"
     },
     {
-      "file": "output/page-07-recombination-key-to-history.png",
-      "title": "Ch 2 \u2014 Recombination",
-      "subtitle": "The Key to History"
+      "file": "output/page-08-recombination-key-to-history.png",
+      "title": "Recombination Key To History"
     },
     {
-      "file": "output/page-08-the-rebels.png",
-      "title": "Ch 2 \u2014 The Rebels",
-      "subtitle": "The Rebels That Don't Shuffle"
+      "file": "output/page-09-the-rebels.png",
+      "title": "The Rebels"
     },
     {
-      "file": "output/page-09-the-big-record.png",
-      "title": "Ch 3 \u2014 The Big Record",
-      "subtitle": "Nuclear DNA",
+      "file": "output/page-10-the-big-record.png",
+      "title": "The Big Record",
       "part": "CHAPTER 3 \u2014 THREE HISTORIES IN YOUR BODY"
     },
     {
-      "file": "output/page-10-the-mother-line.png",
-      "title": "Ch 3 \u2014 The Mother Line",
-      "subtitle": "Mitochondrial DNA"
+      "file": "output/page-11-the-mother-line.png",
+      "title": "The Mother Line"
     },
     {
-      "file": "output/page-11-the-father-line.png",
-      "title": "Ch 3 \u2014 The Father Line",
-      "subtitle": "Y Chromosome"
+      "file": "output/page-12-the-father-line.png",
+      "title": "The Father Line"
     },
     {
-      "file": "output/page-12-when-the-stories-disagree.png",
-      "title": "Ch 3 \u2014 When the Stories Disagree",
-      "subtitle": "The Central Mystery"
+      "file": "output/page-13-when-the-stories-disagree.png",
+      "title": "When The Stories Disagree"
     },
     {
-      "file": "output/page-13-the-clean-room.png",
-      "title": "Ch 4 \u2014 The Clean Room",
-      "subtitle": "Reading the Dead",
+      "file": "output/page-14-the-clean-room.png",
+      "title": "The Clean Room",
       "part": "CHAPTER 4 \u2014 READING THE DEAD"
     },
     {
-      "file": "output/page-14-sequencing-and-comparing.png",
-      "title": "Ch 4 \u2014 Sequencing",
-      "subtitle": "Sequencing and Comparing"
+      "file": "output/page-15-sequencing-and-comparing.png",
+      "title": "Sequencing And Comparing"
     },
     {
-      "file": "output/page-15-the-finger-bone.png",
-      "title": "Ch 4 \u2014 The Finger Bone",
-      "subtitle": "The Finger Bone That Changed Everything"
+      "file": "output/page-16-the-finger-bone.png",
+      "title": "The Finger Bone"
     },
     {
-      "file": "output/page-16-the-cast-assembles.png",
-      "title": "Ch 4 \u2014 The Cast Assembles",
-      "subtitle": "The Human Family Portrait"
+      "file": "output/page-17-the-cast-assembles.png",
+      "title": "The Cast Assembles"
     },
     {
-      "file": "output/page-77-the-return.png",
-      "title": "Epilogue \u2014 The Return",
-      "subtitle": "Back to the Headphones",
+      "file": "output/page-18-the-return.png",
+      "title": "The Return",
       "part": "EPILOGUE"
     },
     {
-      "file": "output/page-78-helix-goodbye.png",
-      "title": "Epilogue \u2014 Helix's Goodbye",
-      "subtitle": "You Were Never Just One Thing"
+      "file": "output/page-19-helix-goodbye.png",
+      "title": "Helix Goodbye"
     }
   ],
   "upcoming": [
