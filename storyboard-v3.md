@@ -1,6 +1,6 @@
 # Storyboard v3 — Reich Graphic Novel (Final)
 
-## 20 Chapters · ~78 Pages · 6 Parts
+## 20 Chapters · ~84 Pages · 6 Parts (+ 6 Intro Pages)
 
 Three threads woven together:
 1. **The Interview** — Dwarkesh × Reich podcast as narrative spine
@@ -17,27 +17,32 @@ Each chapter is a **question** that pulls the reader forward. Answering it raise
 PROLOGUE — "I couldn't follow the podcast" .................. 1 page
 
 PART I — THE LANGUAGE OF LIFE
+  Part I Intro: The Journey Ahead .......................... 1 page
   Chapter 1:  What's Written Inside You ..................... 4 pages
   Chapter 2:  How Life Copies Itself ....................... 4 pages
   Chapter 3:  The Three Histories in Your Body ............. 4 pages
   Chapter 4:  Reading the Dead ............................. 4 pages
 
 PART II — THE DEEP PAST
+  Part II Intro: You Have the Language ..................... 1 page
   Chapter 5:  The Family We Forgot ......................... 4 pages
   Chapter 6:  The Braided River ............................ 4 pages
   Chapter 7:  Africa's Own Story ........................... 4 pages
 
 PART III — THE WORLD REMADE
+  Part III Intro: The River Has Names ...................... 1 page
   Chapter 8:  The Three Peoples of Europe .................. 4 pages
   Chapter 9:  The Horsemen and the Plague .................. 4 pages
   Chapter 10: The Collision That Formed India .............. 4 pages
 
 PART IV — THE WIDER WORLD
+  Part IV Intro: The Pattern Repeats ...................... 1 page
   Chapter 11: The First Americans .......................... 4 pages
   Chapter 12: The Genomic Origins of East Asia ............. 4 pages
   Chapter 13: The Pacific Voyagers ......................... 4 pages
 
 PART V — WHAT IT ALL MEANS
+  Part V Intro: Now Ask Why ............................... 1 page
   Chapter 14: Power and Sex ................................ 4 pages
   Chapter 15: The Race Question ............................ 4 pages
   Chapter 16: The Voice in the DNA ......................... 4 pages
@@ -45,9 +50,11 @@ PART V — WHAT IT ALL MEANS
   Chapter 18: The Grand Challenge .......................... 4 pages
   Chapter 19: What This Means for AI ....................... 4 pages
 
-EPILOGUE — Chapter 20: "Back to the Headphones" ........... 2 pages
+EPILOGUE
+  Epilogue Intro: The Full Map ............................. 1 page
+  Chapter 20: "Back to the Headphones" ..................... 2 pages
 
-                                          TOTAL: ~78 pages
+                                          TOTAL: ~84 pages
 ```
 
 ---
@@ -69,6 +76,28 @@ Helix: "Before we press play, let me teach you my language. Then you'll understa
 # PART I — THE LANGUAGE OF LIFE
 
 *Four chapters of real genetics education. Every concept is immediately connected to a puzzle from the interview or book, so the learning is motivated by curiosity, not curriculum.*
+
+---
+
+## Part I Intro: The Journey Ahead (1 page)
+
+**Visual style:** MAP ROOM — dark background, warm lighting, Helix and Nityesh standing beside a glowing journey map showing all 6 parts as milestones along a winding path. Part I is lit up. This is the first appearance of the journey map — it returns at every part boundary.
+
+**No recap needed** — the Prologue just set the scene.
+
+**Preview:** Before you can understand the podcast, you need the language. DNA — what it is, how it copies itself, how it's inherited, how it changes. The three independent histories written in your body. And how scientists read DNA from 50,000-year-old bones.
+
+Helix: "Four chapters. By the end, you'll have every tool you need to understand what David Reich is saying."
+
+The journey map shows the full arc:
+- **Part I** (glowing): The Language of Life
+- Part II: The Deep Past
+- Part III: The World Remade
+- Part IV: The Wider World
+- Part V: What It All Means
+- Epilogue: Back to the Headphones
+
+Nityesh looks at the map, slightly overwhelmed but excited. Helix puts a reassuring hand on his arm.
 
 ---
 
@@ -444,6 +473,20 @@ Helix: "These species didn't just coexist. They met. They mixed. They changed ea
 
 ---
 
+## Part II Intro: You Have the Language (1 page)
+
+**Visual style:** MAP ROOM — same dark background, warm lighting, journey map. Part I has a checkmark, Part II is now glowing.
+
+**Recap:** You've learned the language of life — DNA structure, the central dogma, inheritance, mutations, selection, drift. You know the three histories in your body (nuclear DNA, mtDNA, Y chromosome) and why they tell different stories about when we split from Neanderthals. You've seen how ancient DNA is extracted from 50,000-year-old bones in clean rooms. And you've met the cast: sapiens, Neanderthals, Denisovans, superarchaics, and ghost populations we haven't even named yet.
+
+**Preview:** Now let's use those tools. What happened when modern humans met Neanderthals — and are you really only 2% Neanderthal? Is "Out of Africa" even the right story? And what's been happening on the continent we keep ignoring?
+
+Helix: "You have the language. Now let's read the story."
+
+Small visual recap icons along the bottom: the double helix, the replication fork, meiosis crossing-over, the three DNA types, the clean room, the braided river timeline from Chapter 4's "Cast Assembles" page.
+
+---
+
 ## Chapter 5: The Family We Forgot (4 pages)
 
 **Question:** What happened when modern humans met Neanderthals — and what does that encounter mean for who you are today?
@@ -596,6 +639,20 @@ Helix: "Every time we look somewhere new, we find something we didn't expect. Af
 
 ---
 
+## Part III Intro: The River Has Names (1 page)
+
+**Visual style:** MAP ROOM — journey map with Parts I-II checked off, Part III glowing.
+
+**Recap:** Neanderthals weren't dumb cavemen — they made eagle-talon jewelry, cared for their sick, and thrived in ice-age Europe for 300,000 years. We interbred with them, and natural selection has been steadily purging their DNA from our genomes for 45,000 years. The "Out of Africa" model is too simple — human history is a braided river, not a family tree. And Africa's own story is just as complex as Eurasia's, with a deep mixture event ~300,000 years ago that may have created modern humans themselves.
+
+**Preview:** Now the world gets remade. Agriculture is invented, and three populations that didn't exist as "Europeans" yet will fuse to create the people we call European today. Horsemen from the steppe — possibly carrying plague — will replace 90% of Britain's population. And the same collision pattern will form India, written into the DNA of every Indian alive.
+
+Helix: "The braided river has names now. Let's meet the streams."
+
+Visual recap icons: the Shanidar Cave elder, the 2% vs 10-20% Neanderthal graphic, the braided river, Africa's tessellated map.
+
+---
+
 ## Chapter 8: The Three Peoples of Europe (4 pages)
 
 **Question:** Who were Europeans before they were "European"?
@@ -733,6 +790,20 @@ Nityesh: (quiet) "I grew up hearing the Aryan invasion theory was colonial propa
 
 ---
 
+## Part IV Intro: The Pattern Repeats (1 page)
+
+**Visual style:** MAP ROOM — journey map with Parts I-III checked off, Part IV glowing.
+
+**Recap:** Europe was built from three layers: dark-skinned blue-eyed hunter-gatherers, Anatolian farmers who brought agriculture, and Yamnaya steppe pastoralists who arrived 5,000 years ago. The Yamnaya carried plague that may have cleared the way — killing 25-50% of dense farming communities. India's ANI-ASI mixture happened within the last 4,000 years, coinciding with the collapse of the Indus Valley Civilization — then froze into castes for 3,000 years. On Diwali night in Hyderabad, the science nearly died over a single word.
+
+**Preview:** The same patterns — migration, mixture, replacement — played out across the rest of the world. A ghost population in Amazonia somehow connected to Australians. Two river systems in China spawning farming expansions that reshaped half the world. And Austronesians crossing the entire Pacific Ocean in outrigger canoes — from Taiwan to Madagascar.
+
+Helix: "Same forces. Different continents. Watch the patterns."
+
+Visual recap icons: the three European layers, the Yamnaya horsemen, the plague bacterium, the Indian cline, Diwali fireworks.
+
+---
+
 ## Chapter 11: The First Americans (4 pages)
 
 **Question:** How did people get to the Americas — and what ghost populations are hiding in their DNA?
@@ -854,6 +925,20 @@ Geography doesn't just shape culture — it shapes the genetic structure of enti
 ---
 
 # PART V — WHAT IT ALL MEANS
+
+---
+
+## Part V Intro: Now Ask Why (1 page)
+
+**Visual style:** MAP ROOM — journey map with Parts I-IV checked off, Part V glowing.
+
+**Recap:** The Americas were peopled by multiple waves, not one — and a ghost population related to Australians somehow reached Amazonia. Two Chinese river systems spawned farming expansions that reshaped half the world. The Austronesians sailed from Taiwan to Madagascar, one of the most impressive migrations in human history. And in the Pacific, the sex bias of migration reversed — Austronesian women settled first, Papuan men arrived later — defying every assumption about how "conquerors" work.
+
+**Preview:** Now: what does it all mean? The DNA reveals a deep history of inequality between men and women — a Y-chromosome collapse 5,000 years ago that wasn't a population bottleneck but a power bottleneck. The race question, where both sides are wrong. Epigenetics reading Neanderthal vocal tracts. Whether lost civilizations could have existed before the Holocene. And what any of this tells us about AI.
+
+Helix: "We've mapped the what. Now let's ask the why."
+
+Visual recap icons: Population Y, the Austronesian canoe route, the Yellow/Yangtze rivers, the Pacific sex-reversal diagram.
 
 ---
 
@@ -1152,6 +1237,20 @@ Helix: "The most important thing ancient DNA has taught us is how often we're su
 
 ---
 
+## Epilogue Intro: The Full Map (1 page)
+
+**Visual style:** MAP ROOM — journey map with ALL parts checked off. Every milestone glowing. The full path illuminated. The map is complete.
+
+**Recap:** The Y-chromosome collapse 5,000 years ago — a power bottleneck, not a population one. Race: today's categories didn't exist 10,000 years ago, and both the orthodox "differences don't matter" view and the racist "stereotypes reflect genetics" view are wrong. The vocal tract revolution — epigenetics revealing that the soft tissue of speech was reshaped specifically in our lineage. No lost civilizations before the Holocene, probably — but we keep being surprised. The grand challenge: ancient DNA from Africa. And the honest lesson for AI: scaling isn't everything; connected intelligence beats raw compute.
+
+**Preview:** One last page. Back to the desk where this started. But everything is different now.
+
+Helix, looking at the completed map with Nityesh: "Look how far you've come."
+
+The journey map is fully lit — a warm, glowing path from "The Language of Life" through to "What It All Means." Every milestone passed. Every concept learned. The visual feeling should be pride and completion — like finishing a long hike and looking back at the trail from the summit.
+
+---
+
 ## Chapter 20: Back to the Headphones — EPILOGUE (2 pages)
 
 ### Page 77 — The Return
@@ -1187,13 +1286,13 @@ Helix gives a small wave.
 | Part | Chapters | Pages | Content |
 |------|----------|-------|---------|
 | Prologue | — | 1 | Nityesh + Helix meet |
-| I: The Language of Life | 1-4 | 16 | DNA, replication, meiosis, inheritance, mutations, mtDNA/Y, ancient DNA, Denisovans |
-| II: The Deep Past | 5-7 | 12 | Neanderthals, the braided river, Africa's story |
-| III: The World Remade | 8-10 | 12 | Three peoples of Europe, Yamnaya/plague, India |
-| IV: The Wider World | 11-13 | 12 | Americas, East Asia, Pacific voyagers |
-| V: What It All Means | 14-19 | 24 | Power/sex, race, epigenetics, lost civilizations, the grand challenge, AI implications |
-| Epilogue | 20 | 2 | Return to the headphones |
-| **TOTAL** | **20 chapters** | **~79 pages** | |
+| I: The Language of Life | Intro + 1-4 | 1 + 16 = 17 | Intro: The Journey Ahead. DNA, replication, meiosis, inheritance, mutations, mtDNA/Y, ancient DNA, Denisovans |
+| II: The Deep Past | Intro + 5-7 | 1 + 12 = 13 | Intro: You Have the Language. Neanderthals, the braided river, Africa's story |
+| III: The World Remade | Intro + 8-10 | 1 + 12 = 13 | Intro: The River Has Names. Three peoples of Europe, Yamnaya/plague, India |
+| IV: The Wider World | Intro + 11-13 | 1 + 12 = 13 | Intro: The Pattern Repeats. Americas, East Asia, Pacific voyagers |
+| V: What It All Means | Intro + 14-19 | 1 + 24 = 25 | Intro: Now Ask Why. Power/sex, race, epigenetics, lost civilizations, the grand challenge, AI implications |
+| Epilogue | Intro + 20 | 1 + 2 = 3 | Intro: The Full Map. Return to the headphones |
+| **TOTAL** | **20 chapters + 6 intros** | **~85 pages** | |
 
 ### Helix Teaching Moments (Deep Primers):
 1. Ch 1, Pg 1-4: DNA structure, central dogma, inheritance (Mendel, alleles, dominance, sex-linked), mutations, selection, drift, H-W

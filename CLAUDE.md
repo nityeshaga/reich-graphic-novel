@@ -5,19 +5,38 @@ An educational graphic novel that teaches genetics from basics while walking thr
 ## Status
 
 **Phase:** 3 in progress (Art Direction / page specs + generation)
-**Scope:** 20 chapters, ~79 pages, 6 parts
-**Storyboard:** `storyboard-v3.md` (final)
+**Scope:** 20 chapters + 6 intro pages, ~85 pages, 6 parts
+**Storyboard:** `storyboard-v3.md` (final, with intro pages added at each part boundary)
 
 ### Pages completed:
 - page-00-prologue.png — DONE (Prologue)
-- page-01-the-molecule.png — DONE (Ch1 P1)
-- page-02-central-dogma.png — DONE v3 (Ch1 P2, includes protein shake moment)
-- page-03-inheritance.png — DONE (Ch1 P3)
-- page-04-mutations.png — DONE (Ch1 P4)
-- page-77-the-return.png — DONE (Epilogue P1)
-- page-78-helix-goodbye.png — DONE (Epilogue P2)
+- page-01-intro-part1.png — DONE (Part I Intro: The Journey Ahead)
+- page-02-the-molecule.png — DONE (Ch1 P1)
+- page-03-central-dogma.png — DONE v3 (Ch1 P2, includes protein shake moment)
+- page-04-inheritance.png — DONE (Ch1 P3, rewritten — just Mendel basics, slower pacing)
+- page-05-beyond-mendel.png — DONE (Ch1 P4, codominance, polygenic, sex-linked)
+- page-06-mutations.png — DONE (Ch1 P5)
+- page-07-the-copy-machine.png — DONE (Ch2 P1)
+- page-08-two-ways-to-divide.png — DONE (Ch2 P2)
+- page-09-recombination-key-to-history.png — DONE (Ch2 P3)
+- page-10-the-rebels.png — DONE (Ch2 P4)
+- page-11-the-big-record.png — DONE (Ch3 P1)
+- page-12-the-mother-line.png — DONE (Ch3 P2)
+- page-13-the-father-line.png — DONE (Ch3 P3)
+- page-14-when-the-stories-disagree.png — DONE (Ch3 P4)
+- page-15-the-clean-room.png — DONE (Ch4 P1)
+- page-16-sequencing-and-comparing.png — DONE (Ch4 P2)
+- page-17-the-finger-bone.png — DONE (Ch4 P3)
+- page-18-the-cast-assembles.png — DONE (Ch4 P4)
+- page-19-intro-part2.png — DONE (Part II Intro: You Have the Language)
+- page-32-intro-part3.png — DONE (Part III Intro: The River Has Names)
+- page-45-intro-part4.png — DONE (Part IV Intro: The Pattern Repeats)
+- page-58-intro-part5.png — DONE (Part V Intro: Now Ask Why)
+- page-83-intro-epilogue.png — DONE (Epilogue Intro: The Full Map)
+- page-84-the-return.png — DONE (Epilogue P1)
+- page-85-helix-goodbye.png — DONE (Epilogue P2)
 
-**Next up:** Chapter 2 (How Life Copies Itself — DNA replication, meiosis, recombination)
+**Next up:** Chapter 5 (The Family We Forgot — Neanderthals, pages 20-23)
 
 ## Production Pipeline
 
