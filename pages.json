@@ -12,89 +12,89 @@
       "chapter": "Part I Intro"
     },
     {
-      "file": "output/page-02-the-molecule.png",
-      "title": "The Molecule",
-      "chapter": "Chapter 1: What's Written Inside You"
+      "file": "output/page-02-meet-the-molecule.png",
+      "title": "Meet The Molecule",
+      "chapter": "Chapter 1: The Molecule"
     },
     {
-      "file": "output/page-03-central-dogma.png",
-      "title": "Central Dogma",
-      "chapter": "Chapter 1: What's Written Inside You"
+      "file": "output/page-03-the-scale-of-you.png",
+      "title": "The Scale Of You",
+      "chapter": "Chapter 1: The Molecule"
     },
     {
-      "file": "output/page-04-inheritance.png",
-      "title": "Inheritance",
-      "chapter": "Chapter 1: What's Written Inside You"
+      "file": "output/page-04-central-dogma-part1.png",
+      "title": "Central Dogma Part1",
+      "chapter": "Chapter 1: The Molecule"
     },
     {
-      "file": "output/page-05-beyond-mendel.png",
-      "title": "Beyond Mendel",
-      "chapter": "Chapter 1: What's Written Inside You"
+      "file": "output/page-05-central-dogma-part2.png",
+      "title": "Central Dogma Part2",
+      "chapter": "Chapter 1: The Molecule"
     },
     {
-      "file": "output/page-06-mutations.png",
-      "title": "Mutations",
-      "chapter": "Chapter 1: What's Written Inside You"
+      "file": "output/page-06-what-proteins-do.png",
+      "title": "What Proteins Do",
+      "chapter": "Chapter 1: The Molecule"
     },
     {
       "file": "output/page-07-the-copy-machine.png",
       "title": "The Copy Machine",
-      "chapter": "Chapter 2: How Life Copies Itself"
+      "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
       "file": "output/page-08-two-ways-to-divide.png",
       "title": "Two Ways To Divide",
-      "chapter": "Chapter 2: How Life Copies Itself"
+      "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
       "file": "output/page-09-recombination-key-to-history.png",
       "title": "Recombination Key To History",
-      "chapter": "Chapter 2: How Life Copies Itself"
+      "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
       "file": "output/page-10-the-rebels.png",
       "title": "The Rebels",
-      "chapter": "Chapter 2: How Life Copies Itself"
+      "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
       "file": "output/page-11-the-big-record.png",
       "title": "The Big Record",
-      "chapter": "Chapter 3: The Three Histories in Your Body"
+      "chapter": "Chapter 5: Three Histories in Your Body"
     },
     {
       "file": "output/page-12-the-mother-line.png",
       "title": "The Mother Line",
-      "chapter": "Chapter 3: The Three Histories in Your Body"
+      "chapter": "Chapter 5: Three Histories in Your Body"
     },
     {
       "file": "output/page-13-the-father-line.png",
       "title": "The Father Line",
-      "chapter": "Chapter 3: The Three Histories in Your Body"
+      "chapter": "Chapter 5: Three Histories in Your Body"
     },
     {
       "file": "output/page-14-when-the-stories-disagree.png",
       "title": "When The Stories Disagree",
-      "chapter": "Chapter 3: The Three Histories in Your Body"
+      "chapter": "Chapter 5: Three Histories in Your Body"
     },
     {
       "file": "output/page-15-the-clean-room.png",
       "title": "The Clean Room",
-      "chapter": "Chapter 4: Reading the Dead"
+      "chapter": "Chapter 6: Reading the Dead"
     },
     {
       "file": "output/page-16-sequencing-and-comparing.png",
       "title": "Sequencing And Comparing",
-      "chapter": "Chapter 4: Reading the Dead"
+      "chapter": "Chapter 6: Reading the Dead"
     },
     {
       "file": "output/page-17-the-finger-bone.png",
       "title": "The Finger Bone",
-      "chapter": "Chapter 4: Reading the Dead"
+      "chapter": "Chapter 6: Reading the Dead"
     },
     {
       "file": "output/page-18-the-cast-assembles.png",
       "title": "The Cast Assembles",
-      "chapter": "Chapter 4: Reading the Dead"
+      "chapter": "Chapter 6: Reading the Dead"
     },
     {
       "file": "output/page-19-intro-part2.png",
@@ -129,48 +129,55 @@
     {
       "file": "output/page-84-the-return.png",
       "title": "The Return",
-      "chapter": "Chapter 20: Back to the Headphones"
+      "chapter": "Chapter 22: Back to the Headphones"
     },
     {
       "file": "output/page-85-helix-goodbye.png",
       "title": "Helix Goodbye",
-      "chapter": "Chapter 20: Back to the Headphones"
+      "chapter": "Chapter 22: Back to the Headphones"
     }
   ],
   "upcoming": [
     {
+      "part": "PART I \u2014 THE LANGUAGE OF LIFE (remaining)",
+      "chapters": [
+        "Chapter 2: Your Parents' Gift",
+        "Chapter 3: When the Code Changes"
+      ]
+    },
+    {
       "part": "PART II \u2014 THE DEEP PAST",
       "chapters": [
-        "Chapter 5: The Family We Forgot",
-        "Chapter 6: The Braided River",
-        "Chapter 7: Africa's Own Story"
+        "Chapter 7: The Family We Forgot",
+        "Chapter 8: The Braided River",
+        "Chapter 9: Africa's Own Story"
       ]
     },
     {
       "part": "PART III \u2014 THE WORLD REMADE",
       "chapters": [
-        "Chapter 8: The Three Peoples of Europe",
-        "Chapter 9: The Horsemen and the Plague",
-        "Chapter 10: The Collision That Formed India"
+        "Chapter 10: The Three Peoples of Europe",
+        "Chapter 11: The Horsemen and the Plague",
+        "Chapter 12: The Collision That Formed India"
       ]
     },
     {
       "part": "PART IV \u2014 THE WIDER WORLD",
       "chapters": [
-        "Chapter 11: The First Americans",
-        "Chapter 12: The Genomic Origins of East Asia",
-        "Chapter 13: The Pacific Voyagers"
+        "Chapter 13: The First Americans",
+        "Chapter 14: The Genomic Origins of East Asia",
+        "Chapter 15: The Pacific Voyagers"
       ]
     },
     {
       "part": "PART V \u2014 WHAT IT ALL MEANS",
       "chapters": [
-        "Chapter 14: Power and Sex",
-        "Chapter 15: The Race Question",
-        "Chapter 16: The Voice in the DNA",
-        "Chapter 17: The Lost Civilizations Question",
-        "Chapter 18: The Grand Challenge",
-        "Chapter 19: What This Means for AI"
+        "Chapter 16: Power and Sex",
+        "Chapter 17: The Race Question",
+        "Chapter 18: The Voice in the DNA",
+        "Chapter 19: The Lost Civilizations Question",
+        "Chapter 20: The Grand Challenge",
+        "Chapter 21: What This Means for AI"
       ]
     }
   ]

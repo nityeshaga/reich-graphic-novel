@@ -81,14 +81,21 @@ The Helix teaching moments (where Nityesh pauses the podcast and Helix explains 
 Every page must end with a hook that creates genuine "I need to know what happens next" energy. Not transitional connective tissue — real curiosity. Vary the rhythm: dense teaching page → dramatic revelation page → quiet character moment → bombshell. A great graphic novel controls reading speed through pacing.
 
 ### Independent Review Gate
-Before generating any page image, the page spec goes through an independent review by a separate agent that checks:
+Before generating any page image, the page spec goes through TWO independent reviews:
+
+**Judge 1 — Quality & Consistency:**
 - Visual consistency with ALL prior page specs (character descriptions, style, color palette)
-- Whether the page-turn hook actually creates curiosity
 - Whether illustration ideas push beyond obvious/generic choices
-- Whether the teaching is clear for someone with zero genetics background
+- Whether the teaching is accurate for someone with zero genetics background
 - Overall captivation and storytelling quality
 
-No page gets generated until it passes this review.
+**Judge 2 — Reader Pace:**
+A first-time reader with zero genetics background, checking: "Could I follow this at reading speed?"
+- **Concept load:** Max 2 genuinely new ideas per page. Dense panels are fine — dense concepts per page are not.
+- **Transition quality:** Pages must flow through character-driven curiosity (Nityesh reacting, wondering), NOT by naming the next section in the final panel. Title-card hooks = automatic reject.
+- **Breathing room:** Every page needs at least one panel where Nityesh reacts, processes, or asks a question. Pure exposition with zero character response = reject.
+
+No page gets generated until it passes BOTH reviews.
 
 ## Key Topics from the Interview
 

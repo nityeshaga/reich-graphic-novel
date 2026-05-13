@@ -5,38 +5,37 @@ An educational graphic novel that teaches genetics from basics while walking thr
 ## Status
 
 **Phase:** 3 in progress (Art Direction / page specs + generation)
-**Scope:** 20 chapters + 6 intro pages, ~85 pages, 6 parts
-**Storyboard:** `storyboard-v3.md` (final, with intro pages added at each part boundary)
+**Scope:** 21 chapters + 6 intro pages, ~120 pages, 6 parts
+**Storyboard:** `storyboard-v4.md` (current — expanded pacing, 4-8 pages per chapter, natural transitions)
 
-### Pages completed:
-- page-00-prologue.png — DONE (Prologue)
-- page-01-intro-part1.png — DONE (Part I Intro: The Journey Ahead)
-- page-02-the-molecule.png — DONE (Ch1 P1)
-- page-03-central-dogma.png — DONE v3 (Ch1 P2, includes protein shake moment)
-- page-04-inheritance.png — DONE (Ch1 P3, rewritten — just Mendel basics, slower pacing)
-- page-05-beyond-mendel.png — DONE (Ch1 P4, codominance, polygenic, sex-linked)
-- page-06-mutations.png — DONE (Ch1 P5)
-- page-07-the-copy-machine.png — DONE (Ch2 P1)
-- page-08-two-ways-to-divide.png — DONE (Ch2 P2)
-- page-09-recombination-key-to-history.png — DONE (Ch2 P3)
-- page-10-the-rebels.png — DONE (Ch2 P4)
-- page-11-the-big-record.png — DONE (Ch3 P1)
-- page-12-the-mother-line.png — DONE (Ch3 P2)
-- page-13-the-father-line.png — DONE (Ch3 P3)
-- page-14-when-the-stories-disagree.png — DONE (Ch3 P4)
-- page-15-the-clean-room.png — DONE (Ch4 P1)
-- page-16-sequencing-and-comparing.png — DONE (Ch4 P2)
-- page-17-the-finger-bone.png — DONE (Ch4 P3)
-- page-18-the-cast-assembles.png — DONE (Ch4 P4)
-- page-19-intro-part2.png — DONE (Part II Intro: You Have the Language)
-- page-32-intro-part3.png — DONE (Part III Intro: The River Has Names)
-- page-45-intro-part4.png — DONE (Part IV Intro: The Pattern Repeats)
-- page-58-intro-part5.png — DONE (Part V Intro: Now Ask Why)
-- page-83-intro-epilogue.png — DONE (Epilogue Intro: The Full Map)
-- page-84-the-return.png — DONE (Epilogue P1)
-- page-85-helix-goodbye.png — DONE (Epilogue P2)
+### Pages completed (v4 storyboard):
+- page-00-prologue.png — DONE (Prologue) [v3, keeping]
+- page-01-intro-part1.png — DONE (Part I Intro: The Journey Ahead) [v3, keeping]
+- page-02-meet-the-molecule.png — DONE (Ch1 P1: DNA structure, base pairing)
+- page-03-the-scale-of-you.png — DONE (Ch1 P2: genome scale, chromosomes)
+- page-04-central-dogma-part1.png — DONE (Ch1 P3: Central Dogma, transcription)
+- page-05-central-dogma-part2.png — DONE (Ch1 P4: translation, universal code)
+- page-06-what-proteins-do.png — DONE (Ch1 P5: proteins, 1.5% surprise, bridge to Ch2)
 
-**Next up:** Chapter 5 (The Family We Forgot — Neanderthals, pages 20-23)
+### Legacy pages (v3 — to be regenerated under v4 storyboard):
+- page-02-the-molecule.png — superseded by page-02-meet-the-molecule.png
+- page-03-central-dogma.png (v3) — superseded by pages 04-05
+- page-04-inheritance.png — will be regenerated as Ch2 pages
+- page-05-beyond-mendel.png — will be regenerated as Ch2 pages
+- page-06-mutations.png — will be regenerated as Ch3 pages
+- page-07 through page-18 — will be regenerated under v4 chapter structure
+- page-19-intro-part2.png — DONE (Part II Intro) [keeping]
+- page-32-intro-part3.png — DONE (Part III Intro) [keeping]
+- page-45-intro-part4.png — DONE (Part IV Intro) [keeping]
+- page-58-intro-part5.png — DONE (Part V Intro) [keeping]
+- page-83-intro-epilogue.png — DONE (Epilogue Intro) [keeping]
+- page-84-the-return.png — DONE (Epilogue P1) [keeping]
+- page-85-helix-goodbye.png — DONE (Epilogue P2) [keeping]
+
+**Next up:** Chapter 2 (Your Parents' Gift — Mendel and inheritance, pages 06-11, 6 pages)
+
+### Panel Grid System
+Every page uses a **4-column × 2-row grid = 8 slots** as the base structure. Panels can merge adjacent slots horizontally for wider compositions. Each slot = one beat (visual moment, dialogue, diagram, or reaction). Most pages end up with 5-7 visible panels. Full-width merges signal big moments; single slots signal beats or reactions.
 
 ## Production Pipeline
 
@@ -44,6 +43,24 @@ This project uses the zine/comic creation skill from `~/.claude/plugins/cache/cl
 
 Key reference files for page spec quality:
 - `~/.claude/plugins/cache/claude-home-base/creative/1.2.0/skills/create-zine-comic/references/` — 6 reference page specs showing different page types
+
+### Review Judges
+
+Every page spec goes through TWO independent reviews before image generation:
+
+**Judge 1 — Quality & Consistency Review** (existing):
+- Visual consistency with ALL prior page specs (character descriptions, style, color palette)
+- Whether illustration ideas push beyond obvious/generic choices
+- Whether the teaching is accurate for someone with zero genetics background
+- Overall captivation and storytelling quality
+
+**Judge 2 — Reader Pace Review** (new):
+A first-time reader with zero genetics background, checking ONE question: **"Could I follow this at reading speed?"**
+- **Concept load:** If a page introduces more than 2 genuinely new ideas, flag it. Dense panels are fine — dense *concepts* per page are not.
+- **Transition quality:** Does each page flow from the previous one through *character-driven curiosity* (Nityesh reacting, asking, wondering)? If the last panel names the next section instead of raising a question the reader genuinely wants answered, REJECT.
+- **Breathing room:** Are there panels where Nityesh reacts, processes, or asks a "wait, so you're saying..." question? If a page is 100% exposition with zero character response, it needs a rewrite.
+
+No page gets generated until it passes BOTH reviews.
 
 ## Characters
 
