@@ -8,111 +8,133 @@
     {
       "file": "output/page-01-intro-part1.png",
       "title": "The Journey Ahead",
-      "part": "PART I — THE LANGUAGE OF LIFE"
+      "part": "PART I — THE LANGUAGE OF LIFE",
+      "chapter": "Part I Intro"
     },
     {
       "file": "output/page-02-the-molecule.png",
-      "title": "The Molecule"
+      "title": "The Molecule",
+      "chapter": "Chapter 1: What's Written Inside You"
     },
     {
       "file": "output/page-03-central-dogma.png",
-      "title": "Central Dogma"
+      "title": "Central Dogma",
+      "chapter": "Chapter 1: What's Written Inside You"
     },
     {
       "file": "output/page-04-inheritance.png",
-      "title": "Inheritance"
+      "title": "Inheritance",
+      "chapter": "Chapter 1: What's Written Inside You"
     },
     {
       "file": "output/page-05-beyond-mendel.png",
-      "title": "Beyond Mendel"
+      "title": "Beyond Mendel",
+      "chapter": "Chapter 1: What's Written Inside You"
     },
     {
       "file": "output/page-06-mutations.png",
-      "title": "Mutations"
+      "title": "Mutations",
+      "chapter": "Chapter 1: What's Written Inside You"
     },
     {
       "file": "output/page-07-the-copy-machine.png",
       "title": "The Copy Machine",
-      "part": "CHAPTER 2 — HOW LIFE COPIES ITSELF"
+      "chapter": "Chapter 2: How Life Copies Itself"
     },
     {
       "file": "output/page-08-two-ways-to-divide.png",
-      "title": "Two Ways To Divide"
+      "title": "Two Ways To Divide",
+      "chapter": "Chapter 2: How Life Copies Itself"
     },
     {
       "file": "output/page-09-recombination-key-to-history.png",
-      "title": "Recombination Key To History"
+      "title": "Recombination Key To History",
+      "chapter": "Chapter 2: How Life Copies Itself"
     },
     {
       "file": "output/page-10-the-rebels.png",
-      "title": "The Rebels"
+      "title": "The Rebels",
+      "chapter": "Chapter 2: How Life Copies Itself"
     },
     {
       "file": "output/page-11-the-big-record.png",
       "title": "The Big Record",
-      "part": "CHAPTER 3 — THREE HISTORIES IN YOUR BODY"
+      "chapter": "Chapter 3: The Three Histories in Your Body"
     },
     {
       "file": "output/page-12-the-mother-line.png",
-      "title": "The Mother Line"
+      "title": "The Mother Line",
+      "chapter": "Chapter 3: The Three Histories in Your Body"
     },
     {
       "file": "output/page-13-the-father-line.png",
-      "title": "The Father Line"
+      "title": "The Father Line",
+      "chapter": "Chapter 3: The Three Histories in Your Body"
     },
     {
       "file": "output/page-14-when-the-stories-disagree.png",
-      "title": "When The Stories Disagree"
+      "title": "When The Stories Disagree",
+      "chapter": "Chapter 3: The Three Histories in Your Body"
     },
     {
       "file": "output/page-15-the-clean-room.png",
       "title": "The Clean Room",
-      "part": "CHAPTER 4 — READING THE DEAD"
+      "chapter": "Chapter 4: Reading the Dead"
     },
     {
       "file": "output/page-16-sequencing-and-comparing.png",
-      "title": "Sequencing And Comparing"
+      "title": "Sequencing And Comparing",
+      "chapter": "Chapter 4: Reading the Dead"
     },
     {
       "file": "output/page-17-the-finger-bone.png",
-      "title": "The Finger Bone"
+      "title": "The Finger Bone",
+      "chapter": "Chapter 4: Reading the Dead"
     },
     {
       "file": "output/page-18-the-cast-assembles.png",
-      "title": "The Cast Assembles"
+      "title": "The Cast Assembles",
+      "chapter": "Chapter 4: Reading the Dead"
     },
     {
       "file": "output/page-19-intro-part2.png",
       "title": "You Have the Language",
-      "part": "PART II — THE DEEP PAST"
+      "part": "PART II — THE DEEP PAST",
+      "chapter": "Part II Intro"
     },
     {
       "file": "output/page-32-intro-part3.png",
       "title": "The River Has Names",
-      "part": "PART III — THE WORLD REMADE"
+      "part": "PART III — THE WORLD REMADE",
+      "chapter": "Part III Intro"
     },
     {
       "file": "output/page-45-intro-part4.png",
       "title": "The Pattern Repeats",
-      "part": "PART IV — THE WIDER WORLD"
+      "part": "PART IV — THE WIDER WORLD",
+      "chapter": "Part IV Intro"
     },
     {
       "file": "output/page-58-intro-part5.png",
       "title": "Now Ask Why",
-      "part": "PART V — WHAT IT ALL MEANS"
+      "part": "PART V — WHAT IT ALL MEANS",
+      "chapter": "Part V Intro"
     },
     {
       "file": "output/page-83-intro-epilogue.png",
       "title": "The Full Map",
-      "part": "EPILOGUE"
+      "part": "EPILOGUE",
+      "chapter": "Epilogue Intro"
     },
     {
       "file": "output/page-84-the-return.png",
-      "title": "The Return"
+      "title": "The Return",
+      "chapter": "Chapter 20: Back to the Headphones"
     },
     {
       "file": "output/page-85-helix-goodbye.png",
-      "title": "Helix Goodbye"
+      "title": "Helix Goodbye",
+      "chapter": "Chapter 20: Back to the Headphones"
     }
   ],
   "upcoming": [

@@ -107,6 +107,15 @@
     flex: 1;
     min-width: 0;
   }
+  #page-chapter {
+    font-size: 11px;
+    color: var(--accent);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.02em;
+  }
   #page-title {
     font-size: 13px;
     color: var(--text-bright);
@@ -165,12 +174,22 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--accent);
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 8px;
-    padding-top: 12px;
+    padding-top: 16px;
     border-top: 1px solid rgba(255,255,255,0.06);
   }
   .toc-part:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+
+  .toc-chapter {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-bright);
+    margin-top: 14px;
+    margin-bottom: 4px;
+    padding: 4px 12px;
+    opacity: 0.8;
+  }
 
   .toc-item {
     display: flex;
@@ -254,6 +273,7 @@
     <button id="btn-prev" aria-label="Previous page">&#8592;</button>
     <button id="btn-toc" aria-label="Table of contents" style="font-size:12px;">&#9776;</button>
     <div id="info">
+      <div id="page-chapter"></div>
       <div id="page-title"></div>
       <div id="page-counter"></div>
     </div>
@@ -272,6 +292,7 @@ let current = 0;
 
 const img = document.getElementById('page-img');
 const spinner = document.getElementById('spinner');
+const chapterEl = document.getElementById('page-chapter');
 const titleEl = document.getElementById('page-title');
 const counter = document.getElementById('page-counter');
 const progress = document.getElementById('progress');
@@ -297,6 +318,8 @@ function show(idx) {
   };
   loader.src = page.file;
 
+  chapterEl.textContent = page.chapter || '';
+  chapterEl.style.display = page.chapter ? 'block' : 'none';
   titleEl.textContent = page.title;
   counter.textContent = `${current + 1} / ${PAGES.length}`;
   progress.style.width = `${((current + 1) / PAGES.length) * 100}%`;
@@ -347,24 +370,33 @@ pageContainer.addEventListener('touchend', (e) => {
 function buildToc() {
   let html = '<div id="toc-inner"><h2>Table of Contents</h2>';
   let lastPart = null;
+  let lastChapter = null;
 
   PAGES.forEach((p, i) => {
     if (p.part && p.part !== lastPart) {
       html += `<div class="toc-part">${p.part}</div>`;
       lastPart = p.part;
+      lastChapter = null;
+    }
+    if (p.chapter && p.chapter !== lastChapter) {
+      html += `<div class="toc-chapter">${p.chapter}</div>`;
+      lastChapter = p.chapter;
     }
     html += `<a class="toc-item toc-done ${i === current ? 'current' : ''}" data-idx="${i}">
       <img class="toc-thumb" src="${p.file}" alt="" loading="lazy">
-      <div class="toc-label">${p.title}<small>${p.subtitle}</small></div>
+      <div class="toc-label">${p.title}</div>
     </a>`;
   });
 
   UPCOMING_CHAPTERS.forEach(section => {
-    html += `<div class="toc-part">${section.part}</div>`;
+    if (section.part !== lastPart) {
+      html += `<div class="toc-part">${section.part}</div>`;
+      lastPart = section.part;
+    }
     section.chapters.forEach(ch => {
+      html += `<div class="toc-chapter toc-upcoming">${ch}</div>`;
       html += `<div class="toc-item toc-upcoming">
-        <div class="toc-thumb"></div>
-        <div class="toc-label">${ch}<small>Coming soon</small></div>
+        <div class="toc-label"><small>Coming soon</small></div>
       </div>`;
     });
   });
