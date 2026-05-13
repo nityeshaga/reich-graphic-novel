@@ -37,114 +37,137 @@
       "chapter": "Chapter 1: The Molecule"
     },
     {
-      "file": "output/page-07-the-copy-machine.png",
+      "file": "output/page-07-the-monks-garden.png",
+      "title": "The Monks Garden",
+      "chapter": "Chapter 2: Your Parents' Gift"
+    },
+    {
+      "file": "output/page-08-the-rules-of-dominance.png",
+      "title": "The Rules Of Dominance",
+      "chapter": "Chapter 2: Your Parents' Gift"
+    },
+    {
+      "file": "output/page-09-when-inheritance-gets-complicated.png",
+      "title": "When Inheritance Gets Complicated",
+      "chapter": "Chapter 2: Your Parents' Gift"
+    },
+    {
+      "file": "output/page-10-linked-but-not-forever.png",
+      "title": "Linked But Not Forever",
+      "chapter": "Chapter 2: Your Parents' Gift"
+    },
+    {
+      "file": "output/page-11-the-symphony-of-genes.png",
+      "title": "The Symphony Of Genes",
+      "chapter": "Chapter 2: Your Parents' Gift"
+    },
+    {
+      "file": "output/page-12-mendels-legacy.png",
+      "title": "Mendels Legacy",
+      "chapter": "Chapter 2: Your Parents' Gift"
+    },
+    {
+      "file": "output/page-13-typos-in-the-code.png",
+      "title": "Typos In The Code",
+      "chapter": "Chapter 3: When the Code Changes"
+    },
+    {
+      "file": "output/page-14-the-rate-and-the-wreck.png",
+      "title": "The Rate And The Wreck",
+      "chapter": "Chapter 3: When the Code Changes"
+    },
+    {
+      "file": "output/page-15-the-molecular-clock.png",
+      "title": "The Molecular Clock",
+      "chapter": "Chapter 3: When the Code Changes"
+    },
+    {
+      "file": "output/page-16-the-two-forces.png",
+      "title": "The Two Forces",
+      "chapter": "Chapter 3: When the Code Changes"
+    },
+    {
+      "file": "output/page-17-the-coin-flip.png",
+      "title": "The Coin Flip",
+      "chapter": "Chapter 3: When the Code Changes"
+    },
+    {
+      "file": "output/page-18-the-river-between-us.png",
+      "title": "The River Between Us",
+      "chapter": "Chapter 3: When the Code Changes"
+    },
+    {
+      "file": "output/page-19-the-copy-machine.png",
       "title": "The Copy Machine",
       "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
-      "file": "output/page-08-two-ways-to-divide.png",
-      "title": "Two Ways To Divide",
+      "file": "output/page-20-growing-mitosis.png",
+      "title": "Growing Mitosis",
       "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
-      "file": "output/page-09-recombination-key-to-history.png",
-      "title": "Recombination Key To History",
+      "file": "output/page-21-shuffling-meiosis.png",
+      "title": "Shuffling Meiosis",
       "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
-      "file": "output/page-10-the-rebels.png",
-      "title": "The Rebels",
+      "file": "output/page-22-the-shuffle-that-writes-history.png",
+      "title": "The Shuffle That Writes History",
       "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
-      "file": "output/page-11-the-big-record.png",
-      "title": "The Big Record",
-      "chapter": "Chapter 5: Three Histories in Your Body"
+      "file": "output/page-23-why-recombination-is-the-key.png",
+      "title": "Why Recombination Is The Key",
+      "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
-      "file": "output/page-12-the-mother-line.png",
-      "title": "The Mother Line",
-      "chapter": "Chapter 5: Three Histories in Your Body"
+      "file": "output/page-24-the-rebels-that-dont-shuffle.png",
+      "title": "The Rebels That Dont Shuffle",
+      "chapter": "Chapter 4: How Life Copies Itself"
     },
     {
-      "file": "output/page-13-the-father-line.png",
-      "title": "The Father Line",
-      "chapter": "Chapter 5: Three Histories in Your Body"
-    },
-    {
-      "file": "output/page-14-when-the-stories-disagree.png",
-      "title": "When The Stories Disagree",
-      "chapter": "Chapter 5: Three Histories in Your Body"
-    },
-    {
-      "file": "output/page-15-the-clean-room.png",
-      "title": "The Clean Room",
-      "chapter": "Chapter 6: Reading the Dead"
-    },
-    {
-      "file": "output/page-16-sequencing-and-comparing.png",
-      "title": "Sequencing And Comparing",
-      "chapter": "Chapter 6: Reading the Dead"
-    },
-    {
-      "file": "output/page-17-the-finger-bone.png",
-      "title": "The Finger Bone",
-      "chapter": "Chapter 6: Reading the Dead"
-    },
-    {
-      "file": "output/page-18-the-cast-assembles.png",
-      "title": "The Cast Assembles",
-      "chapter": "Chapter 6: Reading the Dead"
-    },
-    {
-      "file": "output/page-19-intro-part2.png",
+      "file": "output/page-25-intro-part2.png",
       "title": "You Have the Language",
       "part": "PART II \u2014 THE DEEP PAST",
       "chapter": "Part II Intro"
     },
     {
-      "file": "output/page-32-intro-part3.png",
+      "file": "output/page-26-intro-part3.png",
       "title": "The River Has Names",
       "part": "PART III \u2014 THE WORLD REMADE",
       "chapter": "Part III Intro"
     },
     {
-      "file": "output/page-45-intro-part4.png",
+      "file": "output/page-27-intro-part4.png",
       "title": "The Pattern Repeats",
       "part": "PART IV \u2014 THE WIDER WORLD",
       "chapter": "Part IV Intro"
     },
     {
-      "file": "output/page-58-intro-part5.png",
+      "file": "output/page-28-intro-part5.png",
       "title": "Now Ask Why",
       "part": "PART V \u2014 WHAT IT ALL MEANS",
       "chapter": "Part V Intro"
     },
     {
-      "file": "output/page-83-intro-epilogue.png",
+      "file": "output/page-29-intro-epilogue.png",
       "title": "The Full Map",
       "part": "EPILOGUE",
       "chapter": "Epilogue Intro"
     },
     {
-      "file": "output/page-84-the-return.png",
+      "file": "output/page-30-the-return.png",
       "title": "The Return",
       "chapter": "Chapter 22: Back to the Headphones"
     },
     {
-      "file": "output/page-85-helix-goodbye.png",
+      "file": "output/page-31-helix-goodbye.png",
       "title": "Helix Goodbye",
       "chapter": "Chapter 22: Back to the Headphones"
     }
   ],
   "upcoming": [
-    {
-      "part": "PART I \u2014 THE LANGUAGE OF LIFE (remaining)",
-      "chapters": [
-        "Chapter 2: Your Parents' Gift",
-        "Chapter 3: When the Code Changes"
-      ]
-    },
     {
       "part": "PART II \u2014 THE DEEP PAST",
       "chapters": [
