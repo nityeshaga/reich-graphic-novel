@@ -8,31 +8,22 @@ An educational graphic novel that teaches genetics from basics while walking thr
 **Scope:** 21 chapters + 6 intro pages, ~120 pages, 6 parts
 **Storyboard:** `storyboard-v4.md` (current — expanded pacing, 4-8 pages per chapter, natural transitions)
 
-### Pages completed (v4 storyboard):
-- page-00-prologue.png — DONE (Prologue) [v3, keeping]
-- page-01-intro-part1.png — DONE (Part I Intro: The Journey Ahead) [v3, keeping]
-- page-02-meet-the-molecule.png — DONE (Ch1 P1: DNA structure, base pairing)
-- page-03-the-scale-of-you.png — DONE (Ch1 P2: genome scale, chromosomes)
-- page-04-central-dogma-part1.png — DONE (Ch1 P3: Central Dogma, transcription)
-- page-05-central-dogma-part2.png — DONE (Ch1 P4: translation, universal code)
-- page-06-what-proteins-do.png — DONE (Ch1 P5: proteins, 1.5% surprise, bridge to Ch2)
+### Pages completed (v4 storyboard — 32 pages, clean 00-31 sequence):
 
-### Legacy pages (v3 — to be regenerated under v4 storyboard):
-- page-02-the-molecule.png — superseded by page-02-meet-the-molecule.png
-- page-03-central-dogma.png (v3) — superseded by pages 04-05
-- page-04-inheritance.png — will be regenerated as Ch2 pages
-- page-05-beyond-mendel.png — will be regenerated as Ch2 pages
-- page-06-mutations.png — will be regenerated as Ch3 pages
-- page-07 through page-18 — will be regenerated under v4 chapter structure
-- page-19-intro-part2.png — DONE (Part II Intro) [keeping]
-- page-32-intro-part3.png — DONE (Part III Intro) [keeping]
-- page-45-intro-part4.png — DONE (Part IV Intro) [keeping]
-- page-58-intro-part5.png — DONE (Part V Intro) [keeping]
-- page-83-intro-epilogue.png — DONE (Epilogue Intro) [keeping]
-- page-84-the-return.png — DONE (Epilogue P1) [keeping]
-- page-85-helix-goodbye.png — DONE (Epilogue P2) [keeping]
+**Part I — THE LANGUAGE OF LIFE (fully generated):**
+- 00: Prologue | 01: Part I Intro
+- 02-06: Chapter 1 — The Molecule (5 pages)
+- 07-12: Chapter 2 — Your Parents' Gift (6 pages)
+- 13-18: Chapter 3 — When the Code Changes (6 pages)
+- 19-24: Chapter 4 — How Life Copies Itself (6 pages)
 
-**Next up:** Chapter 2 (Your Parents' Gift — Mendel and inheritance, pages 06-11, 6 pages)
+**Remaining (intros + epilogue from v3, renumbered):**
+- 25: Part II Intro | 26: Part III Intro | 27: Part IV Intro | 28: Part V Intro
+- 29: Epilogue Intro | 30-31: Epilogue (2 pages)
+
+**Next up:** Chapter 5 — Three Histories in Your Body (Part I, Ch5, 6 pages, starts at page 25 — will push intros/epilogue numbering further)
+
+**Note:** v3 pages archived in `output/archive-v3/` and `pages/archive-v3/`
 
 ### Panel Grid System
 Every page uses a **4-column × 2-row grid = 8 slots** as the base structure. Panels can merge adjacent slots horizontally for wider compositions. Each slot = one beat (visual moment, dialogue, diagram, or reaction). Most pages end up with 5-7 visible panels. Full-width merges signal big moments; single slots signal beats or reactions.
@@ -61,6 +52,8 @@ A first-time reader with zero genetics background, checking ONE question: **"Cou
 - **Breathing room:** Are there panels where Nityesh reacts, processes, or asks a "wait, so you're saying..." question? If a page is 100% exposition with zero character response, it needs a rewrite.
 
 No page gets generated until it passes BOTH reviews.
+
+**DO NOT SKIP REVIEWS.** Write specs → run both judges → fix flagged issues → THEN generate images. Generating before reviewing wastes image credits and was explicitly called out by the cofounder as a process violation.
 
 ## Characters
 
@@ -93,6 +86,8 @@ $PYTHON "${SCRIPTS_DIR}/edit_image.py" "prompt" output.png --image ref.png --siz
 - Use `medium` quality for iteration, `high` for final versions
 - Pages are 2048x1440px landscape
 - OPENAI_API_KEY is available as an environment variable
+- Always pass BOTH character reference images: `--image characters/helix-concept.png --image characters/nityesh-cartoon-v2.png`
+- **Parallel generation gotcha:** When running multiple `edit_image.py` calls in a single background Bash command with `&`, you MUST add `wait` at the end. Without it, the shell exits before the python processes finish and images silently don't get saved.
 
 ## Source Material
 
@@ -129,6 +124,8 @@ The deploy workflow runs `python build.py` which regenerates `pages.json` from s
 
 **Reader hierarchy:** The reader displays three levels: **Part → Chapter → Page**. `build.py` maps each page (by its index in the sorted output list) to a chapter via the `CHAPTERS` dict. When adding new pages, add their chapter assignments to this dict. The bottom bar shows chapter name above page title, and the ToC groups pages under chapter headings.
 
+**Renumbering gotcha:** Adding or splitting pages shifts ALL downstream page numbers. When this happens, you must update: (1) output PNG filenames, (2) page spec filenames in `pages/`, (3) `PART_HEADERS` and `CHAPTERS` indices in `build.py`. The indices are based on sort order of filenames in `output/`, not the page number in the filename. Run `python build.py` and inspect the output to verify.
+
 ## Key Decisions
 
 - No page limit — this will be a full graphic novel, as long as it needs to be
@@ -137,3 +134,21 @@ The deploy workflow runs `python build.py` which regenerates `pages.json` from s
 - Skip Dwarkesh as a character to reduce consistency complexity across 20+ pages
 - Visual style: clean comic book illustration, thick outlines, bright colors
 - Nityesh is pixel-art style; Helix and Reich are standard comic style
+
+## Canonical Character Description Blocks
+
+Copy-paste these VERBATIM into every page spec. Do not rephrase, shorten, or paraphrase.
+
+**Nityesh:** A pixel-art style young Indian man with distinctive big curly black hair, rectangular glasses, light stubble, white t-shirt, and beaded necklace. Expressive cartoon eyes. The curly hair is his most defining visual feature — big, voluminous, immediately recognizable. Pixel-art aesthetic — visible chunky pixels, retro game feel, but clearly this specific person.
+
+**Helix:** A small, friendly, anthropomorphic double-helix DNA strand. Coral/salmon pink strands with teal/cyan rungs (base pairs) connecting them. Expressive cartoon eyes near the top, small stubby arms and legs. Approachable, curious, slightly nerdy. Standard comic style (NOT pixel-art). About 1/4 of Nityesh's height — a small companion character.
+
+## Lessons from v3 → v4 Rewrite
+
+These are failure modes that actually happened. Check for them.
+
+1. **v3 crammed too many concepts per page.** The Mendel page had 9 concepts. Max 2 per page.
+2. **v3 used title-card hooks** ("Next: The Copy Machine"). Hooks must come from Nityesh's curiosity.
+3. **v3 had abrupt chapter transitions.** Each chapter must bridge naturally through a question Nityesh asks at the end of the previous chapter.
+4. **Review judges were skipped** in the first Ch2-4 generation run, and the cofounder caught it. The reviews found real issues (broken transition, concept overload) that required rewriting 5 pages and regenerating images. Reviews are not optional.
+5. **Page spec style paragraphs were inconsistent.** Every HELIX TEACHING PAGE spec must include: "The style is polished, modern comic book — clean lines, vibrant colors, professional typography mixed with handwritten-style annotations."
