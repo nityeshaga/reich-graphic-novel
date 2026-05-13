@@ -7,15 +7,44 @@ import re
 
 OUTPUT_DIR = "output"
 
-# Only need to define where part/chapter headers appear (by page number).
-# Titles and subtitles are derived from filenames automatically.
+# Part headers keyed by page number (index in the sorted page list)
 PART_HEADERS = {
     0: "PROLOGUE",
     1: "PART I — THE LANGUAGE OF LIFE",
-    6: "CHAPTER 2 — HOW LIFE COPIES ITSELF",
-    10: "CHAPTER 3 — THREE HISTORIES IN YOUR BODY",
-    14: "CHAPTER 4 — READING THE DEAD",
-    18: "EPILOGUE",
+    19: "PART II — THE DEEP PAST",
+    20: "PART III — THE WORLD REMADE",
+    21: "PART IV — THE WIDER WORLD",
+    22: "PART V — WHAT IT ALL MEANS",
+    23: "EPILOGUE",
+}
+
+# Chapter assignments keyed by page number (index in sorted page list)
+CHAPTERS = {
+    1: "Part I Intro",
+    2: "Chapter 1: What's Written Inside You",
+    3: "Chapter 1: What's Written Inside You",
+    4: "Chapter 1: What's Written Inside You",
+    5: "Chapter 1: What's Written Inside You",
+    6: "Chapter 1: What's Written Inside You",
+    7: "Chapter 2: How Life Copies Itself",
+    8: "Chapter 2: How Life Copies Itself",
+    9: "Chapter 2: How Life Copies Itself",
+    10: "Chapter 2: How Life Copies Itself",
+    11: "Chapter 3: The Three Histories in Your Body",
+    12: "Chapter 3: The Three Histories in Your Body",
+    13: "Chapter 3: The Three Histories in Your Body",
+    14: "Chapter 3: The Three Histories in Your Body",
+    15: "Chapter 4: Reading the Dead",
+    16: "Chapter 4: Reading the Dead",
+    17: "Chapter 4: Reading the Dead",
+    18: "Chapter 4: Reading the Dead",
+    19: "Part II Intro",
+    20: "Part III Intro",
+    21: "Part IV Intro",
+    22: "Part V Intro",
+    23: "Epilogue Intro",
+    24: "Chapter 20: Back to the Headphones",
+    25: "Chapter 20: Back to the Headphones",
 }
 
 UPCOMING = [
@@ -45,8 +74,20 @@ UPCOMING = [
 ]
 
 
+TITLE_OVERRIDES = {
+    "intro-part1": "The Journey Ahead",
+    "intro-part2": "You Have the Language",
+    "intro-part3": "The River Has Names",
+    "intro-part4": "The Pattern Repeats",
+    "intro-part5": "Now Ask Why",
+    "intro-epilogue": "The Full Map",
+}
+
+
 def slug_to_title(slug):
     """Convert 'the-copy-machine' to 'The Copy Machine'."""
+    if slug in TITLE_OVERRIDES:
+        return TITLE_OVERRIDES[slug]
     return slug.replace("-", " ").title()
 
 
@@ -60,14 +101,16 @@ def main():
             continue
         if re.search(r"-v\d+\.png$", f):
             continue
-        num = int(m.group(1))
         slug = m.group(2)
         entry = {
             "file": f"output/{f}",
             "title": slug_to_title(slug),
         }
-        if num in PART_HEADERS:
-            entry["part"] = PART_HEADERS[num]
+        idx = len(pages)
+        if idx in PART_HEADERS:
+            entry["part"] = PART_HEADERS[idx]
+        if idx in CHAPTERS:
+            entry["chapter"] = CHAPTERS[idx]
         pages.append(entry)
 
     manifest = {"pages": pages, "upcoming": UPCOMING}

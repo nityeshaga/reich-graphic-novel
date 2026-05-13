@@ -8,7 +8,7 @@
     {
       "file": "output/page-01-intro-part1.png",
       "title": "The Journey Ahead",
-      "part": "PART I — THE LANGUAGE OF LIFE",
+      "part": "PART I \u2014 THE LANGUAGE OF LIFE",
       "chapter": "Part I Intro"
     },
     {
@@ -99,25 +99,25 @@
     {
       "file": "output/page-19-intro-part2.png",
       "title": "You Have the Language",
-      "part": "PART II — THE DEEP PAST",
+      "part": "PART II \u2014 THE DEEP PAST",
       "chapter": "Part II Intro"
     },
     {
       "file": "output/page-32-intro-part3.png",
       "title": "The River Has Names",
-      "part": "PART III — THE WORLD REMADE",
+      "part": "PART III \u2014 THE WORLD REMADE",
       "chapter": "Part III Intro"
     },
     {
       "file": "output/page-45-intro-part4.png",
       "title": "The Pattern Repeats",
-      "part": "PART IV — THE WIDER WORLD",
+      "part": "PART IV \u2014 THE WIDER WORLD",
       "chapter": "Part IV Intro"
     },
     {
       "file": "output/page-58-intro-part5.png",
       "title": "Now Ask Why",
-      "part": "PART V — WHAT IT ALL MEANS",
+      "part": "PART V \u2014 WHAT IT ALL MEANS",
       "chapter": "Part V Intro"
     },
     {
@@ -139,7 +139,7 @@
   ],
   "upcoming": [
     {
-      "part": "PART II — THE DEEP PAST",
+      "part": "PART II \u2014 THE DEEP PAST",
       "chapters": [
         "Chapter 5: The Family We Forgot",
         "Chapter 6: The Braided River",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "part": "PART III — THE WORLD REMADE",
+      "part": "PART III \u2014 THE WORLD REMADE",
       "chapters": [
         "Chapter 8: The Three Peoples of Europe",
         "Chapter 9: The Horsemen and the Plague",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "part": "PART IV — THE WIDER WORLD",
+      "part": "PART IV \u2014 THE WIDER WORLD",
       "chapters": [
         "Chapter 11: The First Americans",
         "Chapter 12: The Genomic Origins of East Asia",
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "part": "PART V — WHAT IT ALL MEANS",
+      "part": "PART V \u2014 WHAT IT ALL MEANS",
       "chapters": [
         "Chapter 14: Power and Sex",
         "Chapter 15: The Race Question",
