@@ -20,19 +20,24 @@ The reader has just been through Europe's three-layer formation, the Yamnaya ste
 
 ### Slots 1-2 (top-left, merged 2 slots) — "The Journey Map — Past the Midpoint"
 
-The journey map with clear progress:
+The journey map with clear progress. A horizontal glowing path with 6 milestone waypoints, evenly spaced left to right. Each has a small icon above and a label below. USE THESE EXACT LABELS:
 
-1. **Part I — The Language of Life** — ✓ (gold)
-2. **Part II — The Deep Past** — ✓ (gold)
-3. **Part III — The World Remade** — ✓ (gold)
-4. **PART IV — The Wider World** — GLOWING BRIGHT. The outrigger canoe milestone is lit up.
-5. Part V and Epilogue — dimmed.
+1. **PART I — THE LANGUAGE OF LIFE** (double helix icon) — GOLD CHECKMARK ✓, completed
+2. **PART II — THE DEEP PAST** (skull icon) — GOLD CHECKMARK ✓, completed
+3. **PART III — THE WORLD REMADE** (globe icon) — GOLD CHECKMARK ✓, completed
+4. **PART IV — THE WIDER WORLD** (canoe icon) — GLOWING BRIGHT, current destination
+5. **PART V — WHAT IT ALL MEANS** (question mark icon) — dimmed
+6. **EPILOGUE — BACK TO THE HEADPHONES** (headphones icon) — dimmed
 
 Nityesh and Helix are now well past the midpoint of the path. Three checkmarks behind them — the journey is more than half complete.
 
 Caption: "Three parts down. The pattern is becoming clear."
 
-### Slot 3 (top-center-right, 1 slot) — "The Pattern"
+**PART TITLE prominently displayed within or overlaying this panel:** Large bold text reading "PART IV — THE WIDER WORLD" — this should be the single most prominent text element on the entire page. It can appear as a banner across the top of the journey map, or as a large title integrated into the panel. The reader should never have to wonder what part they're entering.
+
+### Slot 3 (top-center-right, 1 slot) — "The Pattern" — LOOKING BACK
+
+**Label at top of panel: "LOOKING BACK"** in warm gold-toned text.
 
 A clean, powerful diagram showing THE RECURRING PATTERN across Parts II and III:
 
@@ -51,7 +56,11 @@ Each row uses simple silhouette icons. The first two rows are filled in. The thi
 
 Caption: "Migration. Mixture. Replacement. The same forces, different continents."
 
-### Slot 4 (top-right, 1 slot) — "What Just Happened"
+This panel has a subtly warm gold background tone to signal it's recap content.
+
+### Slot 4 (top-right, 1 slot) — "What Just Happened" — LOOKING BACK
+
+**This panel continues the LOOKING BACK section** with the same warm gold background tone.
 
 Quick-hit recap — three dramatic snapshots with one-line captions:
 
@@ -61,7 +70,11 @@ Quick-hit recap — three dramatic snapshots with one-line captions:
 
 Below, in a quiet handwritten caption: "The DNA doesn't care about politics."
 
-### Slots 5-6 (bottom-left, merged 2 slots) — "The Wider World"
+### Slots 5-6 (bottom-left, merged 2 slots) — "The Wider World" — LOOKING AHEAD
+
+**Label at top of panel: "LOOKING AHEAD"** in cool teal-toned text.
+
+This panel has a subtly cool teal background tone to signal it's preview content.
 
 Helix standing on a world map, now gesturing toward THREE new regions that light up:
 
@@ -73,7 +86,9 @@ Helix standing on a world map, now gesturing toward THREE new regions that light
 
 Helix's speech bubble: "Same forces. Different continents. Watch the patterns."
 
-### Slot 7 (bottom-center-right, 1 slot) — "The Surprise"
+### Slot 7 (bottom-center-right, 1 slot) — "The Surprise" — LOOKING AHEAD
+
+**This panel continues the LOOKING AHEAD section** with the same cool teal background tone.
 
 A teaser panel. A sex-bias diagram — the kind introduced in Chapter 9 (Y vs mtDNA) — but with the arrows REVERSED from what the reader expects.
 
@@ -81,7 +96,9 @@ Caption: "Everything you think you know about how 'conquerors' work is about to 
 
 Small Helix with a sly expression: "The Pacific breaks every assumption."
 
-### Slot 8 (bottom-right, 1 slot) — "Crossing Over"
+### Slot 8 (bottom-right, 1 slot) — "Crossing Over" — LOOKING AHEAD
+
+**This panel continues the LOOKING AHEAD section** with the same cool teal background tone.
 
 Nityesh looking out at a vast ocean (the Pacific), excited and curious.
 
@@ -91,6 +108,9 @@ Bold text at bottom: "Chapter 11: The First Americans"
 
 ## Visual Design Notes
 
+- **PART TITLE PROMINENCE:** "PART IV — THE WIDER WORLD" must be the single largest, boldest text element on the page, integrated into the journey map panel. The reader should know what part they're entering within one second of seeing the page.
+- **JOURNEY MAP CONSISTENCY:** The 6 milestone labels must use the EXACT names listed above. These same labels appear on every intro page — never vary them.
+- **LOOKING BACK vs LOOKING AHEAD:** Top-right panels (slots 3-4) have warm gold background tones and are labeled "LOOKING BACK". Bottom panels (slots 5-8) have cool teal background tones and are labeled "LOOKING AHEAD". This color distinction makes it instantly clear which panels recap vs preview.
 - The "pattern" diagram in slot 3 is the intellectual heart of this intro page. It should be CLEAN, simple, and immediately legible. The reader should have an "oh — it's the SAME pattern" moment.
 - The world map in slots 5-6 should feel VAST — three entire continents/oceans about to be explored. The dotted line from Australia to Amazonia should feel mysterious and intriguing.
 - The sex-bias teaser in slot 7 should feel like a deliberate subversion — the reader learned about male-dominated mixture in Part III, and now they're being told it flips. Curiosity, not confusion.

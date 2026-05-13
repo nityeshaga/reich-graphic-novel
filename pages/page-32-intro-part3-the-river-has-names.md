@@ -20,18 +20,24 @@ The reader has just gone through the deep past — Neanderthals, the braided riv
 
 ### Slots 1-2 (top-left, merged 2 slots) — "The Journey Map — Halfway There"
 
-The journey map, now with clear progress:
+**PART TITLE prominently displayed as a large bold banner across the top of this panel:** "PART III — THE WORLD REMADE" — this should be the single most prominent text element on the entire page.
 
-1. **Part I — The Language of Life** — ✓ CHECKMARK (gold)
-2. **Part II — The Deep Past** — ✓ CHECKMARK (gold)
-3. **PART III — The World Remade** — GLOWING BRIGHT. The globe-with-migration-arrows milestone is now vividly lit.
-4. Parts IV-V and Epilogue — still dimmed.
+The journey map, now with clear progress. USE THESE EXACT LABELS:
 
-Nityesh and Helix stand at the Part III milestone, nearly halfway along the path. The path behind them glows warmly — ground covered. The path ahead is still substantial but no longer intimidating.
+1. **PART I — THE LANGUAGE OF LIFE** (double helix icon) — GOLD CHECKMARK ✓, completed
+2. **PART II — THE DEEP PAST** (skull icon) — GOLD CHECKMARK ✓, completed
+3. **PART III — THE WORLD REMADE** (globe icon) — GLOWING BRIGHT, current destination
+4. **PART IV — THE WIDER WORLD** (canoe icon) — dimmed
+5. **PART V — WHAT IT ALL MEANS** (question mark icon) — dimmed
+6. **EPILOGUE — BACK TO THE HEADPHONES** (headphones icon) — dimmed
+
+Nityesh and Helix stand at the Part III milestone, nearly halfway along the path. The path behind them glows warmly — ground covered.
 
 Caption: "Parts I & II: Complete. The foundation is set."
 
-### Slot 3 (top-center-right, 1 slot) — "What You've Seen"
+### Slot 3 (top-center-right, 1 slot) — "What You've Seen" — LOOKING BACK
+
+Warm gold background tone. A label at the top: **"LOOKING BACK"** in warm gold-toned text.
 
 A compact recap panel with three vivid snapshot images stacked vertically, each with a one-line caption:
 
@@ -41,7 +47,9 @@ A compact recap panel with three vivid snapshot images stacked vertically, each 
 
 Below: "The 'Out of Africa' model is too simple. Human history is a tangle of mixing, splitting, and mixing again."
 
-### Slot 4 (top-right, 1 slot) — "The Speed-Up"
+### Slot 4 (top-right, 1 slot) — "The Speed-Up" — LOOKING BACK
+
+Warm gold background tone continuing the LOOKING BACK section.
 
 A TIMELINE visual showing the acceleration of history:
 
@@ -56,7 +64,9 @@ The bottom half of the timeline (10,000 years to present) is compressed but PACK
 
 Caption: "Everything you've read so far happened over hundreds of thousands of years. Everything in Part III happens in less than ten thousand."
 
-### Slots 5-6 (bottom-left, merged 2 slots) — "What's Coming"
+### Slots 5-6 (bottom-left, merged 2 slots) — "What's Coming" — LOOKING AHEAD
+
+Cool teal background tone. A label at the top: **"LOOKING AHEAD"** in teal-toned text.
 
 Helix, standing on a stylized map of Eurasia, gesturing at three dramatic preview scenes:
 
@@ -68,7 +78,9 @@ Helix, standing on a stylized map of Eurasia, gesturing at three dramatic previe
 
 Helix's speech bubble: "The braided river has names now. Let's meet the streams."
 
-### Slot 7 (bottom-center-right, 1 slot) — "Personal Stakes"
+### Slot 7 (bottom-center-right, 1 slot) — "Personal Stakes" — LOOKING AHEAD
+
+Cool teal background tone continuing the LOOKING AHEAD section.
 
 A quiet, personal panel. Nityesh looking at his own hand — a callback to the "I'm part Neanderthal" moment from Chapter 5. But now with a new layer:
 
@@ -76,7 +88,9 @@ Nityesh: "Neanderthal DNA in my cells. Steppe pastoralists and Indus Valley farm
 
 The feeling is personal anticipation — Part III will directly address Nityesh's own ancestry.
 
-### Slot 8 (bottom-right, 1 slot) — "Into the World Remade"
+### Slot 8 (bottom-right, 1 slot) — "Into the World Remade" — LOOKING AHEAD
+
+Cool teal background tone continuing the LOOKING AHEAD section.
 
 Bold transition panel. Warm lighting intensifies.
 
@@ -86,8 +100,10 @@ Bold text at bottom: "Chapter 8: The Three Peoples of Europe"
 
 ## Visual Design Notes
 
-- The journey map should now feel FAMILIAR — the reader has seen it twice. The checkmarks provide a satisfying sense of progress.
-- The speed-up timeline in slot 4 is crucial: it visually communicates that Part III covers a MUCH shorter time span but with MORE dramatic events. The density of events should feel almost alarming.
-- The three preview scenes in slots 5-6 should be rendered as dramatic, epic silhouettes — cinematic and mysterious. The reader should want to know these stories.
-- Slot 7 (Nityesh looking at his hand) should feel like a quiet, intimate moment in the middle of an epic page. The India chapter is PERSONAL for him. Let that land.
-- Color palette: the map room dark tones, but with warm amber/gold accents reflecting the agricultural revolution's "world-changing" energy.
+- **PART TITLE PROMINENCE:** "PART III — THE WORLD REMADE" must be the single largest, boldest text element on the page, displayed as a banner in the journey map panel.
+- **JOURNEY MAP CONSISTENCY:** The 6 milestone labels must use the EXACT names listed above. These same labels appear on every intro page — never vary them.
+- **LOOKING BACK vs LOOKING AHEAD:** Top-right panels (slots 3-4) have warm gold background and are labeled "LOOKING BACK". Bottom panels (slots 5-8) have cool teal background and are labeled "LOOKING AHEAD". This color distinction is consistent across all intro pages.
+- The speed-up timeline in slot 4 is crucial: it visually communicates that Part III covers a MUCH shorter time span but with MORE dramatic events.
+- The three preview scenes in slots 5-6 should be rendered as dramatic, epic silhouettes — cinematic and mysterious.
+- Slot 7 (Nityesh looking at his hand) should feel like a quiet, intimate moment. The India chapter is PERSONAL for him.
+- Color palette: map room dark tones, but with warm amber/gold accents reflecting the agricultural revolution.

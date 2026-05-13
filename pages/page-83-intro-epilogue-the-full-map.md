@@ -1,6 +1,6 @@
 # Epilogue Intro: The Full Map
 
-A landscape-format educational comic book page (2048x1440px). MAP ROOM PAGE — dark background with warm lighting. The FINAL appearance of the journey map. ALL parts checked off. The full path illuminated. The journey is complete.
+A landscape-format educational comic book page (2048x1440px). MAP ROOM PAGE — dark background but with the WARMEST golden accent lighting of any intro page. Dawn-like warmth. The FINAL appearance of the journey map. ALL parts checked off. The full path illuminated. The journey is complete.
 
 The style is polished, modern comic book — clean lines, vibrant colors, professional typography.
 
@@ -20,41 +20,48 @@ This is the LAST intro page — the final time the journey map appears. Every mi
 
 ### Slots 1-4 (ENTIRE TOP ROW merged) — "The Full Map"
 
-A MASSIVE panoramic panel spanning the full width. The journey map — the same one from every intro page — but now FULLY ILLUMINATED.
+A MASSIVE panoramic panel spanning the full width.
 
-Every milestone glows warmly:
-1. **Part I — The Language of Life** — ✓ Gold glow
-2. **Part II — The Deep Past** — ✓ Gold glow
-3. **Part III — The World Remade** — ✓ Gold glow
-4. **Part IV — The Wider World** — ✓ Gold glow
-5. **Part V — What It All Means** — ✓ Gold glow
-6. **Epilogue — Back to the Headphones** — Glowing warm, the final destination reached
+**PART TITLE prominently displayed as a large bold banner across the top of this panel:** "EPILOGUE — BACK TO THE HEADPHONES" — this should be the single most prominent text element on the entire page.
 
-The entire path is lit — a warm golden trail from beginning to end. The milestones, which were once dim silhouettes, are all vivid and detailed now. The map that felt vast and intimidating on Page 1's intro now feels like a journey COMPLETED.
+Below the title, the journey map — the same one from every intro page — but now FULLY ILLUMINATED. USE THESE EXACT LABELS:
+
+1. **PART I — THE LANGUAGE OF LIFE** (double helix icon) — GOLD CHECKMARK ✓
+2. **PART II — THE DEEP PAST** (skull icon) — GOLD CHECKMARK ✓
+3. **PART III — THE WORLD REMADE** (globe icon) — GOLD CHECKMARK ✓
+4. **PART IV — THE WIDER WORLD** (canoe icon) — GOLD CHECKMARK ✓
+5. **PART V — WHAT IT ALL MEANS** (question mark icon) — GOLD CHECKMARK ✓
+6. **EPILOGUE — BACK TO THE HEADPHONES** (headphones icon) — GLOWING WARM, the final destination reached
+
+The entire path is lit — a warm golden trail from beginning to end. The milestones, which were once dim silhouettes, are all vivid and detailed now.
 
 Nityesh and Helix stand at the very end of the path, at the Epilogue milestone. They're looking BACK at the trail they've traveled. The perspective is reversed from the Part I intro — instead of looking ahead into the unknown, they're looking back at everything they've covered.
 
 Caption: "The full map."
 
-### Slot 5 (bottom-left, 1 slot) — "What You've Learned"
+### Slot 5 (bottom-left, 1 slot) — "What You've Learned" — LOOKING BACK
+
+Warm gold background tone. A label at the top: **"LOOKING BACK"** in warm gold-toned text.
 
 A flowing text panel — a distillation of the entire book in a few lines:
 
-"The Y-chromosome collapse. The race question — both sides wrong. Epigenetics reading Neanderthal vocal tracts. No lost civilizations before ours, probably. The grand challenge: ancient DNA from Africa. And the honest lesson for AI — be humble about predictions."
-
-Below, in smaller text: "And before all of that: DNA structure. The Central Dogma. Mendel's laws. Meiosis. Recombination. The molecular clock. The Four Population Test. The clean room. Ghost populations. The braided river."
+"DNA structure. The Central Dogma. Mendel. Meiosis. Recombination. The molecular clock. The Four Population Test. Ghost populations. The braided river. Neanderthals. Denisovans. Africa's deep mixture. The three peoples of Europe. The Yamnaya and the plague. The collision that formed India. Population Y. The Austronesian expansion. The Y-chromosome collapse. The race question. Epigenetics. The vocal tract revolution. The grand challenge."
 
 The feeling: look at everything you know now that you didn't know 80 pages ago.
 
-### Slot 6 (bottom-center-left, 1 slot) — "The Biggest Lesson"
+### Slot 6 (bottom-center-left, 1 slot) — "The Biggest Lesson" — LOOKING BACK
 
-A single powerful quote from Reich, rendered in beautiful typography against the dark background:
+Warm gold background tone continuing the LOOKING BACK section.
+
+A single powerful quote from Reich, rendered in beautiful typography:
 
 "Again and again, it's not what we expect. It just makes me think that things are going to be surprising the next time we look at something that's really not looked at before."
 
 Below, in handwritten annotation: "The most important finding of ancient DNA: how often we're wrong."
 
 ### Slot 7 (bottom-center-right, 1 slot) — "Look How Far You've Come"
+
+Warm tone — NOT the usual teal "Looking Ahead." This is the final intro page; there's no "ahead" to preview. Instead, this is a warm emotional farewell moment.
 
 Helix, looking up at Nityesh with warm pride. A quiet, emotional moment between the two characters who have traveled this entire journey together.
 
@@ -64,17 +71,19 @@ Nityesh smiles — not mind-blown, not confused, not excited. Just quietly proud
 
 ### Slot 8 (bottom-right, 1 slot) — "One Last Page"
 
-The transition to the Epilogue. The dark map room tones begin to warm — shifting toward the golden desk-lamp glow of the Prologue. We're going back to where we started.
+The dark map room tones begin to warm — shifting toward the golden desk-lamp glow of the Prologue. We're going back to where we started.
 
 Caption: "One last page. Back to the desk where this started. But everything is different now."
 
-Bold text at bottom: "Epilogue: Back to the Headphones"
+Bold text at bottom: "Chapter 20: Back to the Headphones"
 
 ## Visual Design Notes
 
-- This page should feel like the END of a long journey. The fully illuminated map should be GORGEOUS — the most beautiful version of the journey map across all six intro pages. Every milestone detailed, every connection visible.
-- The reversed perspective (looking BACK instead of forward) is the key emotional beat. On the Part I intro, they looked ahead with trepidation. Now they look back with pride.
-- The tone is WARM and QUIET — not triumphant or bombastic. The feeling of finishing a great book, sitting with it for a moment before closing the cover.
-- The transition from dark map room tones to warm desk-lamp glow in slot 8 should be smooth and inevitable — returning to where we started.
-- Helix's "Look how far you've come" should LAND emotionally. This tiny DNA character has been the reader's companion for ~80 pages. This is nearly goodbye.
-- The overall color palette should be the warmest of all intro pages — golden light dominating the dark background, like dawn breaking.
+- **PART TITLE PROMINENCE:** "EPILOGUE — BACK TO THE HEADPHONES" must be the single largest, boldest text element on the page, displayed as a banner in the journey map panel.
+- **JOURNEY MAP CONSISTENCY:** The 6 milestone labels must use the EXACT names listed above. These same labels appear on every intro page — never vary them.
+- **LOOKING BACK only:** This is the ONLY intro page where the bottom row is entirely warm gold — there's no "LOOKING AHEAD" teal section. The Epilogue is the end; the only direction is back.
+- The fully illuminated map should be GORGEOUS — the most beautiful version across all six intro pages.
+- The reversed perspective (looking BACK) is the key emotional beat.
+- The tone is WARM and QUIET — not triumphant or bombastic.
+- Helix's "Look how far you've come" should LAND emotionally. This is nearly goodbye.
+- The overall color palette should be the warmest of ALL intro pages — golden dawn light.

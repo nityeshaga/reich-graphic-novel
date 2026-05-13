@@ -22,47 +22,53 @@ This is the FIRST intro page the reader encounters — it establishes the "map r
 
 A MASSIVE panoramic panel spanning the full width. Dark background — deep navy/charcoal with subtle warmth.
 
-In the center: a glowing JOURNEY MAP rendered as a winding path across a landscape. The path has 6 milestones, each representing a part of the book. The milestones are rendered as glowing waypoints or landmarks along the path:
+**PART TITLE prominently displayed as a large bold banner across the top of this panel:** "PART I — THE LANGUAGE OF LIFE" — this should be the single most prominent text element on the entire page. The reader should know what part they're entering within one second.
 
-1. **PART I — The Language of Life** (GLOWING BRIGHT — current destination) — represented as a luminous double helix
-2. **Part II — The Deep Past** — a Neanderthal skull silhouette, dimmed
-3. **Part III — The World Remade** — a globe with migration arrows, dimmed
-4. **Part IV — The Wider World** — an outrigger canoe silhouette, dimmed
-5. **Part V — What It All Means** — a question mark made of DNA strands, dimmed
-6. **Epilogue — Back to the Headphones** — headphones icon, dimmed
+Below the title banner: a glowing JOURNEY MAP rendered as a winding path across a landscape. The path has 6 milestones, each representing a part of the book. The milestones are rendered as glowing waypoints or landmarks along the path. USE THESE EXACT LABELS:
+
+1. **PART I — THE LANGUAGE OF LIFE** (double helix icon) — GLOWING BRIGHT, current destination
+2. **PART II — THE DEEP PAST** (skull icon) — dimmed
+3. **PART III — THE WORLD REMADE** (globe icon) — dimmed
+4. **PART IV — THE WIDER WORLD** (canoe icon) — dimmed
+5. **PART V — WHAT IT ALL MEANS** (question mark icon) — dimmed
+6. **EPILOGUE — BACK TO THE HEADPHONES** (headphones icon) — dimmed
 
 The path between milestones glows faintly, showing the full journey. Only Part I is brightly lit. The rest are visible but muted — promises of what's to come.
 
-Small text label above the map: "THE JOURNEY"
-
 Nityesh and Helix stand at the very beginning of the path, tiny figures at the start of something vast. Nityesh looks up at the glowing Part I milestone with a mix of excitement and slight apprehension. Helix stands confidently beside him, one stubby arm pointing forward.
 
-### Slots 5-6 (bottom-left, merged 2 slots) — "What You'll Learn"
+### Slots 5-6 (bottom-left, merged 2 slots) — "The Story So Far"
 
-A warm panel with soft lighting. Helix addresses the reader directly, gesturing at a floating preview of Part I's four chapters, shown as four small iconic thumbnails:
+Warm gold background tone. A label at the top: **"THE STORY SO FAR"** in warm gold-toned text.
 
-- **Ch 1: DNA** — a tiny double helix icon
-- **Ch 2: Copying** — a cell dividing icon
-- **Ch 3: Three Histories** — three parallel lines (nuclear, mtDNA, Y) icon
-- **Ch 4: Reading the Dead** — a bone/clean room icon
+A compact visual recap of the Prologue:
+- Nityesh at his desk, headphones, the podcast on screen
+- The jargon bubbles floating around his head ("archaic admixture", "mitochondrial lineage")
+- Helix materializing on the desk
 
-Helix's speech bubble: "Before you can understand the podcast, you need my language. Four chapters. By the end, you'll have every tool you need."
+Caption: "You couldn't follow the podcast. The jargon was a wall. Then Helix arrived."
 
-Below, in handwritten annotation style: "DNA. How it copies. How it's inherited. How it changes. How scientists read it from ancient bones."
+Helix: "Before we press play, you need my language."
 
-### Slot 7 (bottom-center-right, 1 slot) — "The Promise"
+### Slot 7 (bottom-center-right, 1 slot) — "What You'll Learn" — LOOKING AHEAD
 
-A close-up of Helix, warm and encouraging, looking directly at the reader.
+Cool teal background tone. A label at the top: **"LOOKING AHEAD"** in teal-toned text.
 
-Helix: "I'll be with you the whole way. When something gets confusing, I'll pause and explain. No jargon left behind."
+Four chapter preview icons arranged vertically, each with a title:
+- **Ch 1:** Double helix — "What's Written Inside You"
+- **Ch 2:** Dividing cell — "How Life Copies Itself"
+- **Ch 3:** Three parallel lines — "Three Histories in Your Body"
+- **Ch 4:** Bone/clean room — "Reading the Dead"
 
-The background transitions from the dark map room tones to the warm cream that signals the Helix teaching pages are about to begin — a visual bridge.
+Helix: "Four chapters. By the end, you'll have every tool you need."
 
-### Slot 8 (bottom-right, 1 slot) — "Let's Begin"
+### Slot 8 (bottom-right, 1 slot) — "Let's Begin" — LOOKING AHEAD
 
-Nityesh, excited, rolling up his sleeves (metaphorically — he's in a t-shirt). He looks ready.
+Cool teal background tone continuing the LOOKING AHEAD section.
 
-Nityesh: "Alright. Let's learn the language."
+Nityesh, excited, looking ready. Helix warm and encouraging beside him.
+
+Helix: "I'll be with you the whole way. No jargon left behind."
 
 Bold text at the bottom: "Chapter 1: What's Written Inside You"
 
@@ -70,9 +76,11 @@ A subtle right-pointing arrow.
 
 ## Visual Design Notes
 
-- The MAP ROOM aesthetic is DARK — navy/charcoal backgrounds with warm accent lighting. This contrasts sharply with both the white interview pages and cream primer pages. Think planetarium, observatory, or a cozy study at night.
-- The journey map should feel like a GAME LEVEL SELECT screen — beautiful, inviting, showing the full scope. Each milestone's icon should be immediately recognizable and distinctive.
-- The glowing path should use the coral/teal color palette from Helix — it's Helix's map, Helix's language.
-- Nityesh and Helix at the start of the path should feel like the beginning of an RPG adventure — two small figures, a vast journey ahead.
-- The transition from dark (map room) to warm cream (slots 7-8) creates a visual bridge into Part I's teaching pages.
-- This page sets a TEMPLATE — every part intro page will use the same map with progressive checkmarks. Establish the visual language clearly here.
+- **PART TITLE PROMINENCE:** "PART I — THE LANGUAGE OF LIFE" must be the single largest, boldest text element on the page, displayed as a banner in the journey map panel.
+- **JOURNEY MAP CONSISTENCY:** The 6 milestone labels must use the EXACT names listed above. These same labels appear on every intro page — never vary them.
+- **LOOKING BACK vs LOOKING AHEAD:** Bottom-left panels have warm gold background (recap/story so far). Bottom-right panels have cool teal background (preview). This color distinction is consistent across all intro pages.
+- The MAP ROOM aesthetic is DARK — navy/charcoal backgrounds with warm accent lighting. Think planetarium, observatory, or a cozy study at night.
+- The journey map should feel like a GAME LEVEL SELECT screen — beautiful, inviting, showing the full scope.
+- The glowing path should use the coral/teal color palette from Helix.
+- Nityesh and Helix at the start of the path should feel like the beginning of an RPG adventure.
+- This page sets a TEMPLATE — every part intro page will use the same map with progressive checkmarks.
