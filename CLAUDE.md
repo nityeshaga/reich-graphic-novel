@@ -107,6 +107,11 @@ The reader is a static `index.html` — swipe/arrow-key navigation, table of con
 
 **Deployment:** GitHub Pages via `.github/workflows/deploy.yml`. Pushes to `main` trigger a rebuild.
 
+**CRITICAL — `build.py` is the source of truth for `pages.json`:**
+The deploy workflow runs `python build.py` which regenerates `pages.json` from scratch. Any direct edits to `pages.json` will be overwritten on deploy. To change page metadata (titles, parts, chapters), edit `build.py` instead — specifically `PART_HEADERS`, `CHAPTERS`, and `TITLE_OVERRIDES` dicts.
+
+**Reader hierarchy:** The reader displays three levels: **Part → Chapter → Page**. `build.py` maps each page (by its index in the sorted output list) to a chapter via the `CHAPTERS` dict. When adding new pages, add their chapter assignments to this dict. The bottom bar shows chapter name above page title, and the ToC groups pages under chapter headings.
+
 ## Key Decisions
 
 - No page limit — this will be a full graphic novel, as long as it needs to be
