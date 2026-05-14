@@ -14,60 +14,63 @@ IMPORTANT: Do NOT number the panels. No circled numbers or digits in panel corne
 
 ## Goal of This Page
 
-The most important page in Chapter 2 for connecting to the rest of the book. TWO concepts: (1) Polygenic traits — most human traits are influenced by hundreds or thousands of genes, each with a tiny effect, and (2) Allele frequency — the proportion of a population carrying a particular allele. This is what David Reich actually measures. The chapter climax.
+Teach ONE core concept: polygenic traits — most human traits are not controlled by one gene but by hundreds or thousands of genes, each contributing a tiny nudge. This is the conceptual shift from Mendel's clean single-gene world to the messy, continuous reality. The page should make the reader FEEL the scale difference — from one switch to a thousand dimmers.
 
 ## Panel Layout
 
 ### Slots 1-2 (top-left, merged 2 slots) — "Not One Switch, A Thousand Dimmers"
 
-Wide panel. A visual metaphor: a mixing board (like a music producer's console) with HUNDREDS of tiny slider switches, each contributing a tiny amount to the final output. Some sliders are up, some are down, most are somewhere in the middle.
+Wide panel. A visual metaphor: a music producer's mixing board with HUNDREDS of tiny slider switches. Each slider is labeled with a tiny gene name. Some sliders are pushed up, some down, most somewhere in the middle. All of them feed into a single output meter on the right side of the board.
 
 Label on the mixing board: "HEIGHT"
-Label on the output speaker: "Result: 5'9""
+Label on the output meter: "Result: 5'9""
 
-Helix sits at the mixing board like a producer: "Height isn't one gene. It's influenced by THOUSANDS of genes, each nudging you a tiny bit taller or shorter. Same for skin color, intelligence, disease risk — almost every trait you can think of."
+Helix sits at the mixing board like a music producer with headphones around his neck: "Remember how Mendel's peas had ONE gene for flower color? Height doesn't work that way. It's influenced by THOUSANDS of genes, each nudging you a tiny bit taller or shorter."
 
-Handwritten annotation pointing at one slider: "This one gene nudges you 0.3 millimeters taller. You need THOUSANDS of these nudges to add up to a real difference."
+Handwritten annotation pointing at one tiny slider: "This one gene nudges you 0.3 millimeters taller. You'd never notice it alone."
 
-### Slot 3 (top-center-right, 1 slot) — "The Bell Curve"
+### Slot 3 (top-center-right, 1 slot) — "Thousands of Nudges"
 
-A clean bell curve showing height distribution in a population. The curve is smooth and continuous — not binary like Mendel's peas.
+A zoomed-in view of the mixing board output. A small visual stack showing how thousands of tiny effects add up: thin colored layers stacked on top of each other, like a geological cross-section. Each layer is razor-thin (one gene's contribution), but together they stack up to a meaningful height difference.
 
-Handwritten: "Polygenic traits form a bell curve — a smooth gradient, not two neat categories. This is why most people are near average height and extremes are rare."
+Handwritten: "Each gene's contribution is tiny. But stack THOUSANDS of them and they add up to the difference between 5'2" and 6'4"."
 
-### Slot 4 (top-right, 1 slot) — Nityesh Connects
+### Slot 4 (top-right, 1 slot) — Nityesh Gets It
 
-Nityesh, nodding, getting it.
+Nityesh, eyes widening with understanding. He's looking at the mixing board and the stack visualization.
 
-Speech bubble: "So there's no 'tall gene' and 'short gene.' It's thousands of genes, each with a tiny effect, all adding up."
+Speech bubble: "So there's no 'tall gene' or 'short gene.' It's thousands of genes, each doing almost nothing on its own, all adding up."
 
-Helix: "Which means you can't do a Punnett square for height. It's too complex. You need a completely different approach."
+Helix: "Exactly. And that changes EVERYTHING about how traits look in a population."
 
-### Slots 5-6 (bottom-left, merged 2 slots) — "Allele Frequency — The Real Game"
+### Slots 5-6 (bottom-left, merged 2 slots) — "The Bell Curve"
 
-The crucial concept for the entire book. Two circles representing two populations (labeled "Population A" and "Population B"). Each circle is filled with colored dots — blue and red dots mixed together in different proportions:
+Wide panel. A clean, colorful bell curve showing the distribution of height in a population. The x-axis shows height (58" to 78"), the y-axis shows number of people. The curve is smooth and continuous — a gradient, not two neat categories.
 
-- Population A: ~70% blue dots, ~30% red dots
-- Population B: ~40% blue dots, ~60% red dots
+On the LEFT side of the page, a small throwback to Mendel: two discrete bars — "tall" and "short" — like a bar chart. Label: "Mendel's peas (one gene)"
 
-Helix stands between them, pointing: "THIS is what genetics studies actually measure. Not 'do you have gene X?' but 'what FRACTION of this population carries allele X?' That fraction is called the ALLELE FREQUENCY."
+On the RIGHT side, the smooth bell curve. Label: "Human height (thousands of genes)"
 
-Handwritten annotation: "Allele frequency = how common a particular allele is in a group. Changes in allele frequency over time = evolution."
+An arrow connects them, showing the conceptual shift.
 
-### Slot 7 (bottom-center-right, 1 slot) — The David Reich Connection
+Helix walks along the bell curve: "When thousands of genes each contribute a little, you don't get two categories. You get a GRADIENT. Most people cluster near the middle, and extremes are rare on both ends."
 
-Helix, serious and direct — making the connection to the book's subject.
+Handwritten: "This is called a POLYGENIC trait — 'poly' = many, 'genic' = genes. Height, skin color, intelligence, disease risk — almost every trait that matters is polygenic."
 
-Speech bubble: "When David Reich compares populations, he's not looking at single genes. He's looking at the PATTERN of thousands of allele frequencies across the genome. That pattern is like a fingerprint for a population."
+### Slot 7 (bottom-center-right, 1 slot) — "Nature AND Nurture"
+
+Helix, adding an important nuance, gesturing with both arms.
+
+Speech bubble: "And one more thing — even with thousands of genes nudging your height, your ENVIRONMENT matters too. Nutrition, sleep, health during childhood. Genes set a RANGE. Your life decides where in that range you land."
+
+Handwritten: "This is why average height has increased over generations — not because genes changed, but because nutrition improved."
 
 ### Slot 8 (bottom-right, 1 slot) — The Hook
 
-Nityesh pauses, thoughtful. Then a question forms.
+Nityesh pauses, thinking. A question forms — connecting what he just learned to the bigger picture.
 
-Speech bubble: "Okay but... you said genes come in different versions. And different populations have different frequencies. But where do the different versions come from in the first place? How do new alleles get created?"
+Speech bubble: "Okay, so traits are controlled by thousands of genes. But different people have different versions of those genes, right? Different alleles? So... how do scientists even compare populations when there are thousands of genes involved?"
 
-Helix: "Now THAT is a great question."
+Helix: "THAT is the right question. And the answer is the single most important concept for understanding everything David Reich does."
 
-Small beat. Helix's expression shifts — something big is coming.
-
-Helix: "They're created by mistakes."
+Helix's expression shifts — this is a big moment.

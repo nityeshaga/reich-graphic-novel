@@ -8,20 +8,20 @@ An educational graphic novel that teaches genetics from basics while walking thr
 **Scope:** 21 chapters + 6 intro pages, ~120 pages, 6 parts
 **Storyboard:** `storyboard-v4.md` (current — expanded pacing, 4-8 pages per chapter, natural transitions)
 
-### Pages completed (v4 storyboard — 32 pages, clean 00-31 sequence):
+### Pages completed (v4 storyboard — 33 pages, clean 00-32 sequence):
 
 **Part I — THE LANGUAGE OF LIFE (fully generated):**
 - 00: Prologue | 01: Part I Intro
 - 02-06: Chapter 1 — The Molecule (5 pages)
-- 07-12: Chapter 2 — Your Parents' Gift (6 pages)
-- 13-18: Chapter 3 — When the Code Changes (6 pages)
-- 19-24: Chapter 4 — How Life Copies Itself (6 pages)
+- 07-13: Chapter 2 — Your Parents' Gift (7 pages — split Symphony of Genes into Polygenic Traits + Allele Frequency)
+- 14-19: Chapter 3 — When the Code Changes (6 pages)
+- 20-25: Chapter 4 — How Life Copies Itself (6 pages)
 
 **Remaining (intros + epilogue from v3, renumbered):**
-- 25: Part II Intro | 26: Part III Intro | 27: Part IV Intro | 28: Part V Intro
-- 29: Epilogue Intro | 30-31: Epilogue (2 pages)
+- 26: Part II Intro | 27: Part III Intro | 28: Part IV Intro | 29: Part V Intro
+- 30: Epilogue Intro | 31-32: Epilogue (2 pages)
 
-**Next up:** Chapter 5 — Three Histories in Your Body (Part I, Ch5, 6 pages, starts at page 25 — will push intros/epilogue numbering further)
+**Next up:** Chapter 5 — Three Histories in Your Body (Part I, Ch5, 6 pages, starts at page 26 — will push intros/epilogue numbering further)
 
 **Note:** v3 pages archived in `output/archive-v3/` and `pages/archive-v3/`
 

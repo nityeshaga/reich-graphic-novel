@@ -11,11 +11,11 @@ OUTPUT_DIR = "output"
 PART_HEADERS = {
     0: "PROLOGUE",
     1: "PART I — THE LANGUAGE OF LIFE",
-    25: "PART II — THE DEEP PAST",
-    26: "PART III — THE WORLD REMADE",
-    27: "PART IV — THE WIDER WORLD",
-    28: "PART V — WHAT IT ALL MEANS",
-    29: "EPILOGUE",
+    26: "PART II — THE DEEP PAST",
+    27: "PART III — THE WORLD REMADE",
+    28: "PART IV — THE WIDER WORLD",
+    29: "PART V — WHAT IT ALL MEANS",
+    30: "EPILOGUE",
 }
 
 # Chapter assignments keyed by page number (index in sorted page list)
@@ -28,35 +28,36 @@ CHAPTERS = {
     4: "Chapter 1: The Molecule",
     5: "Chapter 1: The Molecule",
     6: "Chapter 1: The Molecule",
-    # Chapter 2: Your Parents' Gift (6 pages)
+    # Chapter 2: Your Parents' Gift (7 pages)
     7: "Chapter 2: Your Parents' Gift",
     8: "Chapter 2: Your Parents' Gift",
     9: "Chapter 2: Your Parents' Gift",
     10: "Chapter 2: Your Parents' Gift",
     11: "Chapter 2: Your Parents' Gift",
     12: "Chapter 2: Your Parents' Gift",
+    13: "Chapter 2: Your Parents' Gift",
     # Chapter 3: When the Code Changes (6 pages)
-    13: "Chapter 3: When the Code Changes",
     14: "Chapter 3: When the Code Changes",
     15: "Chapter 3: When the Code Changes",
     16: "Chapter 3: When the Code Changes",
     17: "Chapter 3: When the Code Changes",
     18: "Chapter 3: When the Code Changes",
+    19: "Chapter 3: When the Code Changes",
     # Chapter 4: How Life Copies Itself (6 pages)
-    19: "Chapter 4: How Life Copies Itself",
     20: "Chapter 4: How Life Copies Itself",
     21: "Chapter 4: How Life Copies Itself",
     22: "Chapter 4: How Life Copies Itself",
     23: "Chapter 4: How Life Copies Itself",
     24: "Chapter 4: How Life Copies Itself",
+    25: "Chapter 4: How Life Copies Itself",
     # Part intros and epilogue
-    25: "Part II Intro",
-    26: "Part III Intro",
-    27: "Part IV Intro",
-    28: "Part V Intro",
-    29: "Epilogue Intro",
-    30: "Chapter 22: Back to the Headphones",
+    26: "Part II Intro",
+    27: "Part III Intro",
+    28: "Part IV Intro",
+    29: "Part V Intro",
+    30: "Epilogue Intro",
     31: "Chapter 22: Back to the Headphones",
+    32: "Chapter 22: Back to the Headphones",
 }
 
 UPCOMING = [

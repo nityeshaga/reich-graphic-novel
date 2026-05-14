@@ -37,7 +37,7 @@ PROLOGUE — "I couldn't follow the podcast" .................. 1 page
 PART I — THE LANGUAGE OF LIFE
   Part I Intro: The Journey Ahead .......................... 1 page
   Chapter 1:  The Molecule ................................... 5 pages
-  Chapter 2:  Your Parents' Gift ............................. 6 pages
+  Chapter 2:  Your Parents' Gift ............................. 7 pages
   Chapter 3:  When the Code Changes .......................... 5 pages
   Chapter 4:  How Life Copies Itself ......................... 6 pages
   Chapter 5:  Three Histories in Your Body ................... 6 pages
@@ -74,7 +74,7 @@ EPILOGUE
   Epilogue Intro: The Full Map ............................... 1 page
   Chapter 22: "Back to the Headphones" ....................... 2 pages
 
-                                          TOTAL: ~121 pages
+                                          TOTAL: ~122 pages
 ```
 
 ---
@@ -85,7 +85,7 @@ EPILOGUE
 |---|---|---|---|
 | Part I chapters | 4 (Ch 1–4) | 6 (Ch 1–6) | Ch 1 covered DNA + central dogma + Mendel + mutations + selection + drift in 4 pages. Impossible to absorb. Split into 3 chapters. |
 | Pages per chapter | Fixed 4 | Variable 4–8 | Some topics need more room. Forcing 4 pages made everything a syllabus. |
-| Total pages | ~85 | ~121 | More room for breathing panels, reaction beats, natural transitions. |
+| Total pages | ~85 | ~122 | More room for breathing panels, reaction beats, natural transitions. |
 | Total chapters | 20 | 22 (incl. epilogue) | Part I restructured from 4 → 6 chapters. |
 | Transition style | Title-card hooks | Character-driven curiosity | "Next: The Copy Machine" → Nityesh asking "but how does DNA even copy itself?" |
 | Concept density | Unlimited per page | Max 2 new concepts per page | Reader pace judge enforces this |
@@ -233,11 +233,11 @@ Helix: "That question haunted a monk in a monastery garden for eight years. Let 
 
 ---
 
-## Chapter 2: Your Parents' Gift (6 pages)
+## Chapter 2: Your Parents' Gift (7 pages)
 
 **Question:** How do you inherit your parents' DNA — and why does inheritance produce such bewildering variety?
 
-*This was page 3 of v3 Chapter 1 — ONE page covering alleles, dominance, Mendel's laws, codominance, polygenic traits, sex-linked inheritance, and genotype vs phenotype. Now expanded to a full 6-page chapter. Each sub-concept gets room to land before the next one arrives.*
+*This was page 3 of v3 Chapter 1 — ONE page covering alleles, dominance, Mendel's laws, codominance, polygenic traits, sex-linked inheritance, and genotype vs phenotype. Now expanded to a full 7-page chapter (originally 6, then split page 9 "Symphony of Genes" into two pages — Polygenic Traits and Allele Frequency — for better concept clarity). Each sub-concept gets room to land before the next one arrives.*
 
 ### Page 6 — The Monk's Garden
 
@@ -293,25 +293,43 @@ Helix: "Exactly right. And THIS is where it gets really important for what David
 
 **Hook →** Helix pulls up a visualization showing hundreds of tiny switches, all contributing to one trait. "Most traits aren't one gene. They're a symphony."
 
-### Page 9 — The Symphony of Genes
+### Page 9 — The Symphony of Genes (Polygenic Traits)
 
 **Type:** Helix teaching page
 
-**Concepts (2):**
-- **Polygenic traits:** Most human traits (height, skin color, intelligence) are influenced by hundreds or thousands of genes, each with a small effect. No single gene "determines" height — it's the combined effect of thousands.
-- **Allele frequency:** The proportion of a population carrying a particular allele. THIS is what David Reich measures. Not "do you have gene X?" but "what FRACTION of this population carries allele X?" Changes in allele frequencies across populations = the signal Reich reads.
+**Concepts (1):**
+- **Polygenic traits:** Most human traits (height, skin color, intelligence) are influenced by hundreds or thousands of genes, each with a small effect. No single gene "determines" height — it's the combined effect of thousands. This produces a continuous bell curve distribution, not Mendel's binary categories.
 
-Visual: Height shown as a bell curve, with each tiny gene's contribution stacked as a thin layer. A gradient visualization — not binary like Mendel's peas, but continuous. Helix points to one tiny layer: "This one gene nudges you 0.3 millimeters taller. You need THOUSANDS of these nudges to get from short to tall."
+Visual: A mixing board metaphor with hundreds of sliders. Height as a bell curve vs Mendel's discrete bars. Nature AND nurture — genes set a range, environment decides where you land.
 
-Second visual: Two population circles (labeled A and B), each filled with colored dots representing allele frequencies. Different proportions of colors in each circle. Helix: "THIS is what genetics studies measure. Not 'do you have the gene?' but 'how common is it in your group?'"
+Nityesh: "So there's no 'tall gene' or 'short gene.' It's thousands of genes, each doing almost nothing on its own, all adding up."
 
-Nityesh: "So when David Reich compares populations, he's not looking at single genes. He's looking at the PATTERN of thousands of allele frequencies?"
+**Hook →** Nityesh: "But different people have different alleles, right? How do scientists even compare populations when there are thousands of genes involved?" Helix: "THAT is the right question."
 
-Helix: "Now you're thinking like a geneticist."
+### Page 10 — The Frequency Game (Allele Frequency)
 
-**Hook →** Nityesh pauses. "But wait — you said there are genes on different chromosomes, and they're inherited independently. What about genes on the SAME chromosome?"
+**Type:** Helix teaching page — climax of Chapter 2
 
-### Page 10 — Linked, but Not Forever
+**Concepts (1):**
+- **Allele frequency:** The proportion of a population carrying a particular allele. THIS is what David Reich measures. Not "do you have gene X?" but "what FRACTION of this population carries allele X?" Changes in allele frequencies across populations = the signal Reich reads. Evolution = changes in allele frequency over time.
+
+Visual: Individual → population shift. 10 people with colored allele dots, counting to 70%/30%. Two population circles with different dot proportions. Multi-gene barcode fingerprint.
+
+Nityesh: "So allele frequency is literally just... what fraction of the group has a particular version? That's it?" Helix: "That's it. Simple to define. Incredibly powerful to use."
+
+**Hook →** Nityesh: "We started with a monk counting peas. Now we're talking about population fingerprints. How did we get from THERE to HERE?" — invites the recap page.
+
+### Page 11 — Mendel's Legacy (Recap/Breathing Page)
+
+**Type:** Breathing page — synthesis and bridge to Chapter 3
+
+**Concepts (0 new):** Pure recap of Chapter 2's journey, then natural question about where new alleles come from → mutations.
+
+Visual: A pathway through a landscape with four landmarks (Mendel's garden → codominance → mixing board → population fingerprints). Nityesh sits at the end of the trail, reflecting.
+
+Nityesh: "Where do new alleles come from?" Helix: "From mistakes." → Bridge to Chapter 3.
+
+### Page 12 — Linked, but Not Forever
 
 **Type:** Helix teaching page
 
@@ -333,13 +351,13 @@ Helix: (quiet, serious) "Mutations."
 
 ---
 
-## Chapter 3: When the Code Changes (5 pages)
+## Chapter 3: When the Code Changes (6 pages)
 
 **Question:** How does DNA change over time — and why is that the engine of all human history?
 
-*This was page 4 of v3 Chapter 1 — ONE page covering mutations, molecular clock, natural selection, genetic drift, founder effect, allele frequency, H-W equilibrium, and gene flow. Now expanded to a full 5-page chapter. The molecular clock gets its own moment because it's the fundamental tool of genetic history.*
+*This was page 4 of v3 Chapter 1 — ONE page covering mutations, molecular clock, natural selection, genetic drift, founder effect, allele frequency, H-W equilibrium, and gene flow. Now expanded to a full 6-page chapter. The molecular clock gets its own moment because it's the fundamental tool of genetic history.*
 
-### Page 11 — Typos in the Code
+### Page 14 — Typos in the Code
 
 **Type:** Helix teaching page
 
@@ -355,7 +373,7 @@ Helix: "Perfect analogy. And here's the key number: about 60-70 new mutations pe
 
 **Hook →** Nityesh: "But if mutations happen at a steady rate..." He starts counting on his fingers. "Couldn't you use them as a clock?"
 
-### Page 12 — The Molecular Clock
+### Page 15 — The Molecular Clock
 
 **Type:** Helix teaching page
 
@@ -373,7 +391,7 @@ Helix: "Without any fossils. The clock is in the DNA itself. This is the tool Da
 
 **Hook →** Helix: "But the clock only tells you WHEN populations diverged. It doesn't tell you WHY some mutations spread and others vanish. For that, you need to understand the forces."
 
-### Page 13 — The Two Forces
+### Page 16 — The Two Forces
 
 **Type:** Helix teaching page
 
@@ -389,7 +407,7 @@ Helix: "And depending on WHERE you live. In malaria country, carrying one sickle
 
 **Hook →** "But selection isn't the only force. In small populations, something much stranger happens."
 
-### Page 14 — The Coin Flip
+### Page 17 — The Coin Flip
 
 **Type:** Helix teaching page
 
@@ -405,7 +423,7 @@ Helix: "Luck. And that group's random subset of genes now defines billions of de
 
 **Hook →** Nityesh sits back, processing. "Okay. So mutations create variety. Selection and drift shape which variants survive. But..." He pauses. "How does DNA from one population get INTO another population?"
 
-### Page 15 — The River Between Us
+### Page 18 — The River Between Us
 
 **Type:** Helix teaching page
 
@@ -431,7 +449,7 @@ Nityesh: "But... all of this depends on DNA being copied from parent to child. H
 
 *This was v3 Chapter 2, which covered replication, mitosis, meiosis, recombination, and the rebels in 4 pages. Now 6 pages. The big expansion: recombination gets 2 full pages because it's the most important concept for understanding Reich's dating methods. The bridge FROM Chapter 3 happens through Nityesh's natural question.*
 
-### Page 16 — The Copy Machine
+### Page 19 — The Copy Machine
 
 **Type:** Helix teaching page
 
@@ -447,7 +465,7 @@ Helix: "And it does it in a few hours. Every time a cell divides."
 
 **Hook →** Nityesh: "Okay, so DNA can copy itself. But why does a cell need to divide in the first place?"
 
-### Page 17 — Growing: Mitosis
+### Page 20 — Growing: Mitosis
 
 **Type:** Helix teaching page
 
@@ -465,7 +483,7 @@ Helix: "Mitosis makes copies. The other one makes SOMETHING NEW."
 
 **Hook →** Nityesh leans forward. "Show me."
 
-### Page 18 — Shuffling: Meiosis
+### Page 21 — Shuffling: Meiosis
 
 **Type:** Helix teaching page
 
@@ -481,7 +499,7 @@ Helix: "And that's just the sorting. There's one more step that makes it even mo
 
 **Hook →** Helix zooms in on the paired chromosomes during meiosis. "Watch what happens when they get close to each other."
 
-### Page 19 — The Shuffle That Writes History
+### Page 22 — The Shuffle That Writes History
 
 **Type:** Helix teaching page
 
@@ -497,7 +515,7 @@ Helix: "And THIS is why David Reich can read your ancestry from your DNA."
 
 **Hook →** Nityesh: "Wait — how? How does shuffling help him read ANCESTRY?"
 
-### Page 20 — Why Recombination Is the Key to History
+### Page 23 — Why Recombination Is the Key to History
 
 **Type:** Helix teaching page — this is a crucial concept page that connects the biology to Reich's actual methods
 
@@ -515,7 +533,7 @@ Helix: "You're reading history from segment lengths. That's literally what Reich
 
 **Hook →** Nityesh, processing, slowly: "But for this to work, the DNA has to be SHUFFLED. What if some DNA... doesn't shuffle?"
 
-### Page 21 — The Rebels That Don't Shuffle
+### Page 24 — The Rebels That Don't Shuffle
 
 **Type:** Helix teaching page — a bridge page that previews Chapter 5
 
